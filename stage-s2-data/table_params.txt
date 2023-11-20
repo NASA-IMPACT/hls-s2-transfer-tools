@@ -1,0 +1,15 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS {}(
+  `bucket` string,
+  key string,
+  size string,
+  last_modified string
+  )
+  PARTITIONED BY (dt string)
+  ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+   "separatorChar" = ",",
+   "quoteChar"     = "\""
+)
+  STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.SymlinkTextInputFormat'
+  OUTPUTFORMAT  'org.apache.hadoop.hive.ql.io.IgnoreKeyTextOutputFormat'
+  LOCATION 's3://impact-s2-inventories/esa-data-transfer-staging/esa-data-transfer/hive/';

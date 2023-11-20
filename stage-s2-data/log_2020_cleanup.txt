@@ -1,0 +1,2545 @@
+nohup: ignoring input
+2020276
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/10/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/10/02/%
+2023-08-11 15:00:45.214911
+2023-08-11 15:00:45.278513
+2020275
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/10/01/%''. Waiting 15 seconds
+Successfully retrieved 439 objects with key filter %/2020/10/01/%
+2023-08-11 15:01:47.565182
+Time: 2023-08-11 15:01:47.631534 - 439 granules remaining
+Time: 2023-08-11 15:02:47.688407 - 359 granules remaining
+Time: 2023-08-11 15:03:47.748406 - 279 granules remaining
+Time: 2023-08-11 15:04:47.808416 - 159 granules remaining
+Time: 2023-08-11 15:05:47.868407 - 79 granules remaining
+2023-08-11 15:06:47.897789
+2020274
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/30/%
+2023-08-11 15:07:50.112838
+2023-08-11 15:07:50.177210
+2020273
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/29/%
+2023-08-11 15:08:52.420767
+2023-08-11 15:08:52.492971
+2020272
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/28/%
+2023-08-11 15:09:54.734861
+2023-08-11 15:09:54.801423
+2020271
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/27/%
+2023-08-11 15:10:57.058538
+2023-08-11 15:10:57.129788
+2020270
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/26/%
+2023-08-11 15:11:59.436688
+2023-08-11 15:11:59.501883
+2020269
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/25/%
+2023-08-11 15:13:02.464054
+2023-08-11 15:13:02.537761
+2020268
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/24/%
+2023-08-11 15:14:04.777657
+2023-08-11 15:14:04.843631
+2020267
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/23/%
+2023-08-11 15:15:07.086936
+2023-08-11 15:15:07.152631
+2020266
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/22/%
+2023-08-11 15:16:09.469657
+2023-08-11 15:16:09.534251
+2020265
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/21/%
+2023-08-11 15:17:11.827518
+2023-08-11 15:17:11.891938
+2020264
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/20/%
+2023-08-11 15:18:14.083269
+2023-08-11 15:18:14.147631
+2020263
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/19/%
+2023-08-11 15:19:16.437537
+2023-08-11 15:19:16.502253
+2020262
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/18/%
+2023-08-11 15:20:18.945529
+2023-08-11 15:20:19.010659
+2020261
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/17/%
+2023-08-11 15:21:21.379340
+2023-08-11 15:21:21.444831
+2020260
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/16/%
+2023-08-11 15:22:23.685682
+2023-08-11 15:22:23.751145
+2020259
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/15/%
+2023-08-11 15:23:26.010899
+2023-08-11 15:23:26.076120
+2020258
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/14/%
+2023-08-11 15:24:28.326856
+2023-08-11 15:24:28.391398
+2020257
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/13/%
+2023-08-11 15:25:30.592948
+2023-08-11 15:25:30.657620
+2020256
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/12/%
+2023-08-11 15:26:32.951739
+2023-08-11 15:26:33.018746
+2020255
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/11/%
+2023-08-11 15:27:35.484444
+2023-08-11 15:27:35.554184
+2020254
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/10/%
+2023-08-11 15:28:37.834983
+2023-08-11 15:28:37.903113
+2020253
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/09/%
+2023-08-11 15:29:40.156837
+2023-08-11 15:29:40.225621
+2020252
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/08/%
+2023-08-11 15:30:42.496736
+2023-08-11 15:30:42.568121
+2020251
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/07/%
+2023-08-11 15:31:45.001148
+2023-08-11 15:31:45.068818
+2020250
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/06/%
+2023-08-11 15:32:47.388382
+2023-08-11 15:32:47.458854
+2020249
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/05/%
+2023-08-11 15:33:49.761269
+2023-08-11 15:33:49.828166
+2020248
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/04/%
+2023-08-11 15:34:52.187526
+2023-08-11 15:34:52.252481
+2020247
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/03/%
+2023-08-11 15:35:54.664590
+2023-08-11 15:35:54.732552
+2020246
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/02/%
+2023-08-11 15:36:57.030045
+2023-08-11 15:36:57.095791
+2020245
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/09/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/09/01/%
+2023-08-11 15:37:59.333505
+2023-08-11 15:37:59.399656
+2020244
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/31/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/31/%
+2023-08-11 15:39:01.651902
+2023-08-11 15:39:01.716179
+2020243
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/30/%
+2023-08-11 15:40:03.992917
+2023-08-11 15:40:04.060846
+2020242
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/29/%
+2023-08-11 15:41:06.377600
+2023-08-11 15:41:06.449922
+2020241
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/28/%
+2023-08-11 15:42:08.751767
+2023-08-11 15:42:08.820603
+2020240
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/27/%
+2023-08-11 15:43:11.074975
+2023-08-11 15:43:11.140685
+2020239
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/26/%
+2023-08-11 15:44:13.413791
+2023-08-11 15:44:13.486687
+2020238
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/25/%
+2023-08-11 15:45:15.949336
+2023-08-11 15:45:16.020441
+2020237
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/24/%
+2023-08-11 15:46:18.209831
+2023-08-11 15:46:18.274325
+2020236
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/23/%
+2023-08-11 15:47:20.540490
+2023-08-11 15:47:20.606891
+2020235
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/22/%
+2023-08-11 15:48:22.879776
+2023-08-11 15:48:22.951883
+2020234
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/21/%
+2023-08-11 15:49:25.270205
+2023-08-11 15:49:25.338261
+2020233
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/20/%
+2023-08-11 15:50:27.671431
+2023-08-11 15:50:27.739237
+2020232
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/19/%
+2023-08-11 15:51:30.017981
+2023-08-11 15:51:30.082134
+2020231
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/18/%
+2023-08-11 15:52:32.407774
+2023-08-11 15:52:32.472678
+2020230
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/17/%
+2023-08-11 15:53:34.717566
+2023-08-11 15:53:34.783202
+2020229
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/16/%
+2023-08-11 15:54:37.072193
+2023-08-11 15:54:37.140313
+2020228
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/15/%
+2023-08-11 15:55:39.426371
+2023-08-11 15:55:39.492987
+2020227
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/14/%
+2023-08-11 15:56:41.811507
+2023-08-11 15:56:41.882559
+2020226
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/13/%
+2023-08-11 15:57:44.123872
+2023-08-11 15:57:44.195051
+2020225
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/12/%
+2023-08-11 15:58:46.486381
+2023-08-11 15:58:46.554147
+2020224
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/11/%
+2023-08-11 15:59:48.930881
+2023-08-11 15:59:49.002941
+2020223
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/10/%
+2023-08-11 16:00:51.369746
+2023-08-11 16:00:51.437599
+2020222
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/09/%
+2023-08-11 16:01:53.756472
+2023-08-11 16:01:53.821967
+2020221
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/08/%
+2023-08-11 16:02:56.023022
+2023-08-11 16:02:56.088195
+2020220
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/07/%
+2023-08-11 16:03:58.275269
+2023-08-11 16:03:58.340543
+2020219
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/06/%
+2023-08-11 16:05:00.708941
+2023-08-11 16:05:00.775658
+2020218
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/05/%
+2023-08-11 16:06:03.187151
+2023-08-11 16:06:03.250219
+2020217
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/04/%
+2023-08-11 16:07:05.478851
+2023-08-11 16:07:05.545382
+2020216
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/03/%
+2023-08-11 16:08:07.846080
+2023-08-11 16:08:07.919240
+2020215
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/02/%
+2023-08-11 16:09:10.162625
+2023-08-11 16:09:10.234652
+2020214
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/08/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/08/01/%
+2023-08-11 16:10:12.421719
+2023-08-11 16:10:12.492693
+2020213
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/31/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/31/%
+2023-08-11 16:11:14.765965
+2023-08-11 16:11:14.837358
+2020212
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/30/%
+2023-08-11 16:12:17.269876
+2023-08-11 16:12:17.336480
+2020211
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/29/%
+2023-08-11 16:13:19.662450
+2023-08-11 16:13:19.732728
+2020210
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/28/%
+2023-08-11 16:14:22.104668
+2023-08-11 16:14:22.168724
+2020209
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/27/%
+2023-08-11 16:15:24.526133
+2023-08-11 16:15:24.593893
+2020208
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/26/%
+2023-08-11 16:16:26.843035
+2023-08-11 16:16:26.907928
+2020207
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/25/%
+2023-08-11 16:17:29.194066
+2023-08-11 16:17:29.262207
+2020206
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/24/%
+2023-08-11 16:18:31.424203
+2023-08-11 16:18:31.487963
+2020205
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/23/%
+2023-08-11 16:19:33.838001
+2023-08-11 16:19:33.905759
+2020204
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/22/%
+2023-08-11 16:20:36.196492
+2023-08-11 16:20:36.263732
+2020203
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/21/%
+2023-08-11 16:21:38.626162
+2023-08-11 16:21:38.696193
+2020202
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/20/%
+2023-08-11 16:22:40.978085
+2023-08-11 16:22:41.048621
+2020201
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/19/%
+2023-08-11 16:23:43.437793
+2023-08-11 16:23:43.505907
+2020200
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/18/%
+2023-08-11 16:24:45.827009
+2023-08-11 16:24:45.892986
+2020199
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/17/%
+2023-08-11 16:25:48.251609
+2023-08-11 16:25:48.315499
+2020198
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/16/%
+2023-08-11 16:26:50.554935
+2023-08-11 16:26:50.621723
+2020197
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/15/%
+2023-08-11 16:27:52.900182
+2023-08-11 16:27:52.967894
+2020196
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/14/%
+2023-08-11 16:28:55.268768
+2023-08-11 16:28:55.344465
+2020195
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/13/%
+2023-08-11 16:29:57.665284
+2023-08-11 16:29:57.732663
+2020194
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/12/%
+2023-08-11 16:31:00.079026
+2023-08-11 16:31:00.143594
+2020193
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/11/%
+2023-08-11 16:32:02.388191
+2023-08-11 16:32:02.451994
+2020192
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/10/%
+2023-08-11 16:33:04.678957
+2023-08-11 16:33:04.743053
+2020191
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/09/%
+2023-08-11 16:34:06.983871
+2023-08-11 16:34:07.048501
+2020190
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/08/%''. Waiting 15 seconds
+Successfully retrieved 21 objects with key filter %/2020/07/08/%
+2023-08-11 16:35:09.351821
+Time: 2023-08-11 16:35:09.419983 - 21 granules remaining
+2023-08-11 16:36:09.480263
+2020189
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/07/%
+2023-08-11 16:37:11.711711
+2023-08-11 16:37:11.774994
+2020188
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/06/%
+2023-08-11 16:38:14.080670
+2023-08-11 16:38:14.145857
+2020187
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/05/%
+2023-08-11 16:39:16.463022
+2023-08-11 16:39:16.532001
+2020186
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/04/%''. Waiting 15 seconds
+Successfully retrieved 437 objects with key filter %/2020/07/04/%
+2023-08-11 16:40:18.850679
+Time: 2023-08-11 16:40:18.921469 - 437 granules remaining
+Time: 2023-08-11 16:41:18.994661 - 397 granules remaining
+Time: 2023-08-11 16:42:19.053268 - 357 granules remaining
+Time: 2023-08-11 16:43:19.112404 - 281 granules remaining
+Time: 2023-08-11 16:44:19.172407 - 237 granules remaining
+Time: 2023-08-11 16:45:19.232412 - 197 granules remaining
+Time: 2023-08-11 16:46:19.292407 - 125 granules remaining
+Time: 2023-08-11 16:47:19.352402 - 77 granules remaining
+Time: 2023-08-11 16:48:19.412406 - 20 granules remaining
+2023-08-11 16:49:19.472522
+2020185
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/03/%
+2023-08-11 16:50:21.794196
+2023-08-11 16:50:21.860062
+2020184
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/02/%''. Waiting 15 seconds
+Successfully retrieved 1404 objects with key filter %/2020/07/02/%
+2023-08-11 16:51:24.167663
+Time: 2023-08-11 16:51:24.234324 - 1404 granules remaining
+Time: 2023-08-11 16:52:24.292400 - 1364 granules remaining
+Time: 2023-08-11 16:53:24.352404 - 1324 granules remaining
+Time: 2023-08-11 16:54:24.412396 - 1245 granules remaining
+Time: 2023-08-11 16:55:24.472401 - 1204 granules remaining
+Time: 2023-08-11 16:56:24.532404 - 1151 granules remaining
+Time: 2023-08-11 16:57:24.592399 - 1085 granules remaining
+Time: 2023-08-11 16:58:24.653156 - 1044 granules remaining
+Time: 2023-08-11 16:59:24.712426 - 977 granules remaining
+Time: 2023-08-11 17:00:24.772408 - 924 granules remaining
+Time: 2023-08-11 17:01:24.832413 - 884 granules remaining
+Time: 2023-08-11 17:02:24.892867 - 820 granules remaining
+Time: 2023-08-11 17:03:24.952420 - 766 granules remaining
+Time: 2023-08-11 17:04:25.012424 - 721 granules remaining
+Time: 2023-08-11 17:05:25.072400 - 665 granules remaining
+Time: 2023-08-11 17:06:25.132396 - 607 granules remaining
+Time: 2023-08-11 17:07:25.192399 - 563 granules remaining
+Time: 2023-08-11 17:08:25.252412 - 510 granules remaining
+Time: 2023-08-11 17:09:25.312398 - 446 granules remaining
+Time: 2023-08-11 17:10:25.372396 - 402 granules remaining
+Time: 2023-08-11 17:11:25.432399 - 339 granules remaining
+Time: 2023-08-11 17:12:25.492406 - 285 granules remaining
+Time: 2023-08-11 17:13:25.552398 - 231 granules remaining
+Time: 2023-08-11 17:14:25.612402 - 166 granules remaining
+Time: 2023-08-11 17:15:25.672405 - 121 granules remaining
+Time: 2023-08-11 17:16:25.732404 - 56 granules remaining
+2023-08-11 17:17:25.792514
+2020183
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/07/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/07/01/%
+2023-08-11 17:18:28.057151
+2023-08-11 17:18:28.128297
+2020182
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/30/%
+2023-08-11 17:19:30.367387
+2023-08-11 17:19:30.437545
+2020181
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/29/%
+2023-08-11 17:20:32.794248
+2023-08-11 17:20:32.862854
+2020180
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/28/%
+2023-08-11 17:21:35.152733
+2023-08-11 17:21:35.218857
+2020179
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/27/%
+2023-08-11 17:22:37.466920
+2023-08-11 17:22:37.535135
+2020178
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/26/%
+2023-08-11 17:23:39.883908
+2023-08-11 17:23:39.947770
+2020177
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/25/%
+2023-08-11 17:24:42.252329
+2023-08-11 17:24:42.316420
+2020176
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/24/%
+2023-08-11 17:25:44.569509
+2023-08-11 17:25:44.634145
+2020175
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/23/%
+2023-08-11 17:26:46.866335
+2023-08-11 17:26:46.937395
+2020174
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/22/%
+2023-08-11 17:27:49.196552
+2023-08-11 17:27:49.262418
+2020173
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/21/%
+2023-08-11 17:28:51.511680
+2023-08-11 17:28:51.576793
+2020172
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/20/%
+2023-08-11 17:29:53.766486
+2023-08-11 17:29:53.835377
+2020171
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/19/%
+2023-08-11 17:30:56.172777
+2023-08-11 17:30:56.242221
+2020170
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/18/%
+2023-08-11 17:31:58.652728
+2023-08-11 17:31:58.716640
+2020169
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/17/%
+2023-08-11 17:33:00.939856
+2023-08-11 17:33:01.007969
+2020168
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/16/%
+2023-08-11 17:34:03.311029
+2023-08-11 17:34:03.379412
+2020167
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/15/%
+2023-08-11 17:35:05.589314
+2023-08-11 17:35:05.658435
+2020166
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/14/%
+2023-08-11 17:36:07.835953
+2023-08-11 17:36:07.900582
+2020165
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/13/%
+2023-08-11 17:37:10.155800
+2023-08-11 17:37:10.222440
+2020164
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/12/%
+2023-08-11 17:38:12.496945
+2023-08-11 17:38:12.562544
+2020163
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/11/%
+2023-08-11 17:39:14.930297
+2023-08-11 17:39:14.999275
+2020162
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/10/%
+2023-08-11 17:40:17.457181
+2023-08-11 17:40:17.525521
+2020161
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/09/%
+2023-08-11 17:41:19.811911
+2023-08-11 17:41:19.881140
+2020160
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/08/%
+2023-08-11 17:42:22.026954
+2023-08-11 17:42:22.099153
+2020159
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/07/%
+2023-08-11 17:43:24.337868
+2023-08-11 17:43:24.407096
+2020158
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/06/%
+2023-08-11 17:44:26.723958
+2023-08-11 17:44:26.787972
+2020157
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/05/%
+2023-08-11 17:45:29.163295
+2023-08-11 17:45:29.228014
+2020156
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/04/%
+2023-08-11 17:46:31.526031
+2023-08-11 17:46:31.592739
+2020155
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/03/%
+2023-08-11 17:47:33.959111
+2023-08-11 17:47:34.025288
+2020154
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/02/%
+2023-08-11 17:48:36.406718
+2023-08-11 17:48:36.479963
+2020153
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/06/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/06/01/%
+2023-08-11 17:49:38.803566
+2023-08-11 17:49:38.870454
+2020152
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/31/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/31/%
+2023-08-11 17:50:41.123343
+2023-08-11 17:50:41.193121
+2020151
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/30/%
+2023-08-11 17:51:43.369979
+2023-08-11 17:51:43.441152
+2020150
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/29/%''. Waiting 15 seconds
+Successfully retrieved 233 objects with key filter %/2020/05/29/%
+2023-08-11 17:52:45.794095
+Time: 2023-08-11 17:52:45.861160 - 233 granules remaining
+Time: 2023-08-11 17:53:45.920418 - 193 granules remaining
+Time: 2023-08-11 17:54:45.980399 - 150 granules remaining
+Time: 2023-08-11 17:55:46.041448 - 73 granules remaining
+Time: 2023-08-11 17:56:46.100403 - 33 granules remaining
+2023-08-11 17:57:46.160511
+2020149
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/28/%
+2023-08-11 17:58:48.327414
+2023-08-11 17:58:48.393337
+2020148
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/27/%
+2023-08-11 17:59:50.642434
+2023-08-11 17:59:50.710578
+2020147
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/26/%
+2023-08-11 18:00:52.974244
+2023-08-11 18:00:53.037863
+2020146
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/25/%
+2023-08-11 18:01:55.277629
+2023-08-11 18:01:55.347105
+2020145
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/24/%
+2023-08-11 18:02:57.629028
+2023-08-11 18:02:57.699716
+2020144
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/23/%
+2023-08-11 18:04:00.122560
+2023-08-11 18:04:00.193405
+2020143
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/22/%
+2023-08-11 18:05:02.535181
+2023-08-11 18:05:02.601816
+2020142
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/21/%
+2023-08-11 18:06:04.915385
+2023-08-11 18:06:04.987377
+2020141
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/20/%
+2023-08-11 18:07:07.224273
+2023-08-11 18:07:07.292227
+2020140
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/19/%
+2023-08-11 18:08:09.567140
+2023-08-11 18:08:09.632189
+2020139
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/18/%
+2023-08-11 18:09:11.861609
+2023-08-11 18:09:11.930094
+2020138
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/17/%''. Waiting 15 seconds
+Successfully retrieved 1 objects with key filter %/2020/05/17/%
+2023-08-11 18:10:14.221455
+Time: 2023-08-11 18:10:14.287521 - 1 granules remaining
+2023-08-11 18:11:14.321560
+2020137
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/16/%
+2023-08-11 18:12:16.719725
+2023-08-11 18:12:16.790286
+2020136
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/15/%
+2023-08-11 18:13:19.050541
+2023-08-11 18:13:19.118508
+2020135
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/14/%
+2023-08-11 18:14:21.446840
+2023-08-11 18:14:21.512102
+2020134
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/13/%''. Waiting 15 seconds
+Successfully retrieved 6 objects with key filter %/2020/05/13/%
+2023-08-11 18:15:23.757939
+Time: 2023-08-11 18:15:23.829179 - 6 granules remaining
+2023-08-11 18:16:23.889349
+2020133
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/12/%
+2023-08-11 18:17:26.164959
+2023-08-11 18:17:26.231662
+2020132
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/11/%
+2023-08-11 18:18:28.516323
+2023-08-11 18:18:28.583603
+2020131
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/10/%
+2023-08-11 18:19:30.957794
+2023-08-11 18:19:31.027670
+2020130
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/09/%
+2023-08-11 18:20:33.441299
+2023-08-11 18:20:33.512006
+2020129
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/08/%
+2023-08-11 18:21:35.796275
+2023-08-11 18:21:35.864759
+2020128
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/07/%
+2023-08-11 18:22:38.100582
+2023-08-11 18:22:38.171140
+2020127
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/06/%
+2023-08-11 18:23:40.420030
+2023-08-11 18:23:40.487728
+2020126
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/05/%
+2023-08-11 18:24:43.699380
+2023-08-11 18:24:43.764789
+2020125
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/04/%
+2023-08-11 18:25:46.059321
+2023-08-11 18:25:46.128312
+2020124
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/03/%
+2023-08-11 18:26:48.430709
+2023-08-11 18:26:48.499515
+2020123
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/02/%
+2023-08-11 18:27:50.754405
+2023-08-11 18:27:50.824501
+2020122
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/05/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/05/01/%
+2023-08-11 18:28:53.130586
+2023-08-11 18:28:53.199024
+2020121
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/30/%''. Waiting 15 seconds
+Successfully retrieved 179 objects with key filter %/2020/04/30/%
+2023-08-11 18:29:55.466337
+Time: 2023-08-11 18:29:55.536610 - 179 granules remaining
+Time: 2023-08-11 18:30:55.604900 - 139 granules remaining
+Time: 2023-08-11 18:31:55.664401 - 83 granules remaining
+Time: 2023-08-11 18:32:55.724402 - 19 granules remaining
+2023-08-11 18:33:55.742073
+2020120
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/29/%
+2023-08-11 18:34:58.062203
+2023-08-11 18:34:58.126410
+2020119
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/28/%''. Waiting 15 seconds
+Successfully retrieved 6 objects with key filter %/2020/04/28/%
+2023-08-11 18:36:00.412397
+Time: 2023-08-11 18:36:00.481305 - 6 granules remaining
+2023-08-11 18:37:00.542013
+2020118
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/27/%''. Waiting 15 seconds
+Successfully retrieved 64 objects with key filter %/2020/04/27/%
+2023-08-11 18:38:02.792347
+Time: 2023-08-11 18:38:02.862333 - 64 granules remaining
+Time: 2023-08-11 18:39:02.920413 - 24 granules remaining
+2023-08-11 18:40:02.964390
+2020117
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/26/%
+2023-08-11 18:41:05.400254
+2023-08-11 18:41:05.469198
+2020116
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/25/%''. Waiting 15 seconds
+Successfully retrieved 222 objects with key filter %/2020/04/25/%
+2023-08-11 18:42:07.750216
+Time: 2023-08-11 18:42:07.816921 - 222 granules remaining
+Time: 2023-08-11 18:43:07.876977 - 182 granules remaining
+Time: 2023-08-11 18:44:07.936403 - 142 granules remaining
+Time: 2023-08-11 18:45:07.996425 - 66 granules remaining
+Time: 2023-08-11 18:46:08.056407 - 20 granules remaining
+2023-08-11 18:47:08.072870
+2020115
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/24/%
+2023-08-11 18:48:10.425770
+2023-08-11 18:48:10.494064
+2020114
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/23/%
+2023-08-11 18:49:12.755133
+2023-08-11 18:49:12.827441
+2020113
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/22/%
+2023-08-11 18:50:15.032650
+2023-08-11 18:50:15.100279
+2020112
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/21/%
+2023-08-11 18:51:17.446979
+2023-08-11 18:51:17.517750
+2020111
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/20/%
+2023-08-11 18:52:19.730437
+2023-08-11 18:52:19.799157
+2020110
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/19/%
+2023-08-11 18:53:22.124560
+2023-08-11 18:53:22.190887
+2020109
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/18/%
+2023-08-11 18:54:24.494232
+2023-08-11 18:54:24.559712
+2020108
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/17/%
+2023-08-11 18:55:27.126342
+2023-08-11 18:55:27.193239
+2020107
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/16/%
+2023-08-11 18:56:29.450552
+2023-08-11 18:56:29.516678
+2020106
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/15/%
+2023-08-11 18:57:31.750302
+2023-08-11 18:57:31.815619
+2020105
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/14/%
+2023-08-11 18:58:33.962074
+2023-08-11 18:58:34.031882
+2020104
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/13/%
+2023-08-11 18:59:36.337424
+2023-08-11 18:59:36.407005
+2020103
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/12/%
+2023-08-11 19:00:38.694403
+2023-08-11 19:00:38.766883
+2020102
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/11/%
+2023-08-11 19:01:41.157433
+2023-08-11 19:01:41.222844
+2020101
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/10/%
+2023-08-11 19:02:43.593638
+2023-08-11 19:02:43.658630
+2020100
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/09/%
+2023-08-11 19:03:45.937572
+2023-08-11 19:03:46.006795
+2020099
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/08/%
+2023-08-11 19:04:48.230674
+2023-08-11 19:04:48.297866
+2020098
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/07/%
+2023-08-11 19:05:50.583809
+2023-08-11 19:05:50.655674
+2020097
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/06/%
+2023-08-11 19:06:52.926200
+2023-08-11 19:06:52.995884
+2020096
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/05/%
+2023-08-11 19:07:55.291485
+2023-08-11 19:07:55.364232
+2020095
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/04/%
+2023-08-11 19:08:57.714349
+2023-08-11 19:08:57.783485
+2020094
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2020/04/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/03/%
+2023-08-11 19:10:00.138986
+2023-08-11 19:10:00.208559
+2020093
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/04/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/02/%
+2023-08-11 19:11:02.493053
+2023-08-11 19:11:02.565070
+2020092
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/04/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/04/01/%
+2023-08-11 19:12:04.927138
+2023-08-11 19:12:04.999082
+2020091
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/31/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/31/%
+2023-08-11 19:13:07.344928
+2023-08-11 19:13:07.408884
+2020090
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/30/%
+2023-08-11 19:14:09.646765
+2023-08-11 19:14:09.717573
+2020089
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/29/%
+2023-08-11 19:15:12.001456
+2023-08-11 19:15:12.066260
+2020088
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/28/%
+2023-08-11 19:16:14.392578
+2023-08-11 19:16:14.457365
+2020087
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/27/%
+2023-08-11 19:17:16.756675
+2023-08-11 19:17:16.824247
+2020086
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/26/%
+2023-08-11 19:18:19.148556
+2023-08-11 19:18:19.219460
+2020085
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/25/%
+2023-08-11 19:19:21.446031
+2023-08-11 19:19:21.511843
+2020084
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/24/%
+2023-08-11 19:20:23.778646
+2023-08-11 19:20:23.844502
+2020083
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/23/%
+2023-08-11 19:21:26.189021
+2023-08-11 19:21:26.256082
+2020082
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/22/%
+2023-08-11 19:22:28.538090
+2023-08-11 19:22:28.610033
+2020081
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/21/%
+2023-08-11 19:23:30.880330
+2023-08-11 19:23:30.947292
+2020080
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/20/%
+2023-08-11 19:24:33.269658
+2023-08-11 19:24:33.337995
+2020079
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/19/%
+2023-08-11 19:25:35.622785
+2023-08-11 19:25:35.690682
+2020078
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/18/%
+2023-08-11 19:26:37.978141
+2023-08-11 19:26:38.050186
+2020077
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/17/%
+2023-08-11 19:27:40.301902
+2023-08-11 19:27:40.366706
+2020076
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/16/%
+2023-08-11 19:28:42.543046
+2023-08-11 19:28:42.611850
+2020075
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/15/%
+2023-08-11 19:29:44.943928
+2023-08-11 19:29:45.008068
+2020074
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/14/%
+2023-08-11 19:30:47.253605
+2023-08-11 19:30:47.319408
+2020073
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/13/%
+2023-08-11 19:31:49.600229
+2023-08-11 19:31:49.667175
+2020072
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/12/%
+2023-08-11 19:32:51.991196
+2023-08-11 19:32:52.058052
+2020071
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/11/%
+2023-08-11 19:33:54.373162
+2023-08-11 19:33:54.445518
+2020070
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/10/%
+2023-08-11 19:34:56.706816
+2023-08-11 19:34:56.771601
+2020069
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/09/%
+2023-08-11 19:35:58.952901
+2023-08-11 19:35:59.020705
+2020068
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/08/%
+2023-08-11 19:37:01.339853
+2023-08-11 19:37:01.407936
+2020067
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/07/%
+2023-08-11 19:38:03.754412
+2023-08-11 19:38:03.827190
+2020066
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/06/%
+2023-08-11 19:39:05.984712
+2023-08-11 19:39:06.052833
+2020065
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/05/%
+2023-08-11 19:40:08.325893
+2023-08-11 19:40:08.395043
+2020064
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/04/%
+2023-08-11 19:41:10.669391
+2023-08-11 19:41:10.746626
+2020063
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/03/%
+2023-08-11 19:42:13.026443
+2023-08-11 19:42:13.091987
+2020062
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/02/%
+2023-08-11 19:43:15.353543
+2023-08-11 19:43:15.423938
+2020061
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/03/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/03/01/%
+2023-08-11 19:44:18.204073
+2023-08-11 19:44:18.275951
+2020060
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/29/%
+2023-08-11 19:45:20.552055
+2023-08-11 19:45:20.620290
+2020059
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/28/%
+2023-08-11 19:46:22.959845
+2023-08-11 19:46:23.029622
+2020058
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/27/%
+2023-08-11 19:47:25.226044
+2023-08-11 19:47:25.291729
+2020057
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/26/%
+2023-08-11 19:48:27.594836
+2023-08-11 19:48:27.658859
+2020056
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/25/%
+2023-08-11 19:49:29.968121
+2023-08-11 19:49:30.034772
+2020055
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/24/%
+2023-08-11 19:50:32.233222
+2023-08-11 19:50:32.299065
+2020054
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/23/%
+2023-08-11 19:51:34.541782
+2023-08-11 19:51:34.616118
+2020053
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/22/%
+2023-08-11 19:52:36.892284
+2023-08-11 19:52:36.962886
+2020052
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/21/%
+2023-08-11 19:53:39.180844
+2023-08-11 19:53:39.247019
+2020051
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/20/%
+2023-08-11 19:54:41.468749
+2023-08-11 19:54:41.541846
+2020050
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/19/%
+2023-08-11 19:55:43.753816
+2023-08-11 19:55:43.818400
+2020049
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/18/%
+2023-08-11 19:56:46.179727
+2023-08-11 19:56:46.246288
+2020048
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/17/%
+2023-08-11 19:57:48.529671
+2023-08-11 19:57:48.600047
+2020047
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/16/%
+2023-08-11 19:58:50.871078
+2023-08-11 19:58:50.938564
+2020046
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/15/%
+2023-08-11 19:59:53.181390
+2023-08-11 19:59:53.245955
+2020045
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/14/%
+2023-08-11 20:00:55.645410
+2023-08-11 20:00:55.709860
+2020044
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/13/%
+2023-08-11 20:01:58.023010
+2023-08-11 20:01:58.093687
+2020043
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/12/%
+2023-08-11 20:03:00.403526
+2023-08-11 20:03:00.468541
+2020042
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/11/%
+2023-08-11 20:04:02.768270
+2023-08-11 20:04:02.833144
+2020041
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/10/%
+2023-08-11 20:05:05.126995
+2023-08-11 20:05:05.194220
+2020040
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/09/%
+2023-08-11 20:06:07.571852
+2023-08-11 20:06:07.640998
+2020039
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/08/%
+2023-08-11 20:07:10.017929
+2023-08-11 20:07:10.085071
+2020038
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/07/%
+2023-08-11 20:08:12.315695
+2023-08-11 20:08:12.385951
+2020037
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/06/%
+2023-08-11 20:09:14.628848
+2023-08-11 20:09:14.695433
+2020036
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/05/%
+2023-08-11 20:10:16.954344
+2023-08-11 20:10:17.020674
+2020035
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/04/%
+2023-08-11 20:11:19.258995
+2023-08-11 20:11:19.322619
+2020034
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/03/%
+2023-08-11 20:12:21.706375
+2023-08-11 20:12:21.772278
+2020033
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/02/%
+2023-08-11 20:13:24.131466
+2023-08-11 20:13:24.195412
+2020032
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/02/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/02/01/%
+2023-08-11 20:14:26.458020
+2023-08-11 20:14:26.522333
+2020031
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/31/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/31/%
+2023-08-11 20:15:28.807066
+2023-08-11 20:15:28.871909
+2020030
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/30/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/30/%
+2023-08-11 20:16:31.145958
+2023-08-11 20:16:31.210669
+2020029
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/29/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/29/%
+2023-08-11 20:17:33.468555
+2023-08-11 20:17:33.538242
+2020028
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/28/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/28/%
+2023-08-11 20:18:35.770116
+2023-08-11 20:18:35.840836
+2020027
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/27/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/27/%
+2023-08-11 20:19:38.147646
+2023-08-11 20:19:38.215326
+2020026
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/26/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/26/%
+2023-08-11 20:20:40.541074
+2023-08-11 20:20:40.607330
+2020025
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/25/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/25/%
+2023-08-11 20:21:43.085765
+2023-08-11 20:21:43.153935
+2020024
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/24/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/24/%
+2023-08-11 20:22:45.372755
+2023-08-11 20:22:45.443022
+2020023
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/23/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/23/%
+2023-08-11 20:23:47.703801
+2023-08-11 20:23:47.770830
+2020022
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/22/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/22/%
+2023-08-11 20:24:50.127346
+2023-08-11 20:24:50.193421
+2020021
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/21/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/21/%
+2023-08-11 20:25:52.446396
+2023-08-11 20:25:52.513104
+2020020
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/20/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/20/%
+2023-08-11 20:26:54.903988
+2023-08-11 20:26:54.973941
+2020019
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/19/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/19/%
+2023-08-11 20:27:57.341472
+2023-08-11 20:27:57.411952
+2020018
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/18/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/18/%
+2023-08-11 20:28:59.700691
+2023-08-11 20:28:59.766821
+2020017
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/17/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/17/%
+2023-08-11 20:30:02.103293
+2023-08-11 20:30:02.185037
+2020016
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/16/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/16/%
+2023-08-11 20:31:04.533472
+2023-08-11 20:31:04.604185
+2020015
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/15/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/15/%
+2023-08-11 20:32:06.919015
+2023-08-11 20:32:06.985733
+2020014
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/14/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/14/%
+2023-08-11 20:33:09.214590
+2023-08-11 20:33:09.279225
+2020013
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/13/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/13/%
+2023-08-11 20:34:11.532662
+2023-08-11 20:34:11.607859
+2020012
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/12/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/12/%
+2023-08-11 20:35:13.814380
+2023-08-11 20:35:13.878227
+2020011
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/11/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/11/%
+2023-08-11 20:36:16.203731
+2023-08-11 20:36:16.271469
+2020010
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/10/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/10/%
+2023-08-11 20:37:18.538635
+2023-08-11 20:37:18.607172
+2020009
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/09/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/09/%
+2023-08-11 20:38:20.876471
+2023-08-11 20:38:20.946400
+2020008
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/08/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/08/%
+2023-08-11 20:39:23.220263
+2023-08-11 20:39:23.287611
+2020007
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/07/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/07/%
+2023-08-11 20:40:25.555871
+2023-08-11 20:40:25.621279
+2020006
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/06/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/06/%
+2023-08-11 20:41:27.890597
+2023-08-11 20:41:27.958280
+2020005
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/05/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/05/%
+2023-08-11 20:42:30.282944
+2023-08-11 20:42:30.350862
+2020004
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/04/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/04/%
+2023-08-11 20:43:32.759622
+2023-08-11 20:43:32.825682
+2020003
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/03/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/03/%
+2023-08-11 20:44:35.144127
+2023-08-11 20:44:35.210541
+2020002
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/02/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/02/%
+2023-08-11 20:45:37.631197
+2023-08-11 20:45:37.695366
+2020001
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-10-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-10-01-00' AND key like '%/2020/01/01/%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2020/01/01/%
+2023-08-11 20:46:39.946426
+2023-08-11 20:46:40.011558

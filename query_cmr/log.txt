@@ -1,0 +1,18 @@
+nohup: ignoring input
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.15) or chardet (5.0.0) doesn't match a supported version!
+  RequestsDependencyWarning)
+/home/ubuntu/.local/lib/python3.6/site-packages/boto3/compat.py:88: PythonDeprecationWarning: Boto3 will no longer support Python 3.6 starting May 30, 2022. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.7 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+2023-06-12 14:10:12.941814
+Query state is currently QUEUED for Query: 'SHOW TABLES LIKE 's2_archive''. Waiting 15 seconds
+Table s2_archive exists in default. Retrieving the most recent partition
+Query state is currently QUEUED for Query: 'SELECT * FROM "s2_archive$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE s2_archive'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "s2_archive$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-11-01-00
+Query state is currently QUEUED for Query: 'SELECT key, size, last_modified FROM s2_archive WHERE dt='2023-06-11-01-00' AND date_parse(last_modified, '%Y-%m-%dT%H:%i:%s.%fZ') >= date_parse('2023-05-31T00:00:00', '%Y-%m-%dT%H:%i:%s') AND date_parse(last_modified, '%Y-%m-%dT%H:%i:%s.%fZ') < date_parse('2023-06-01T00:00:00', '%Y-%m-%dT%H:%i:%s') ORDER BY date_parse(last_modified, '%Y-%m-%dT%H:%i:%s.%fZ')'. Waiting 15 seconds
+Query state is currently RUNNING for Query: 'SELECT key, size, last_modified FROM s2_archive WHERE dt='2023-06-11-01-00' AND date_parse(last_modified, '%Y-%m-%dT%H:%i:%s.%fZ') >= date_parse('2023-05-31T00:00:00', '%Y-%m-%dT%H:%i:%s') AND date_parse(last_modified, '%Y-%m-%dT%H:%i:%s.%fZ') < date_parse('2023-06-01T00:00:00', '%Y-%m-%dT%H:%i:%s') ORDER BY date_parse(last_modified, '%Y-%m-%dT%H:%i:%s.%fZ')'. Waiting 15 seconds
+163430
+57114
+files in X row of MGRS grid: 7361
+2023-06-13 02:23:48.665321

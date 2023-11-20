@@ -1,0 +1,7 @@
+{
+	"catalog": "AwsDataCatalog",
+	"database": "default",
+	"table": "s2_archive",
+	"inventory_location": "s3://impact-s2-inventories/s2-archive/Sentinel2_archive/hive/",
+	"output_location": "s3://impact-s2-inventories/queries"
+}

@@ -1,0 +1,2082 @@
+2015331
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 37, in get_last_partition
+    partitions,output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 184, in <module>
+    output, scene_filter = query_manager()
+  File "query_athena_thread_delete.py", line 96, in query_manager
+    partitionDate = get_last_partition()
+  File "query_athena_thread_delete.py", line 40, in get_last_partition
+    result, output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+2015330
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/__init__.py", line 17, in <module>
+    from boto3.session import Session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/session.py", line 30, in <module>
+    import botocore.client
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/client.py", line 15, in <module>
+    from botocore import waiter, xform_name
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/waiter.py", line 18, in <module>
+    from botocore.docs.docstring import WaiterDocstring
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/docs/__init__.py", line 15, in <module>
+    from botocore.docs.service import ServiceDocumenter
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/docs/service.py", line 18, in <module>
+    from botocore.docs.bcdoc.restdoc import DocumentStructure
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/docs/bcdoc/restdoc.py", line 16, in <module>
+    from botocore.docs.bcdoc.docstringparser import DocStringParser
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/docs/bcdoc/docstringparser.py", line 16, in <module>
+    class DocStringParser(six.moves.html_parser.HTMLParser):
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/vendored/six.py", line 97, in __get__
+    result = self._resolve()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/vendored/six.py", line 120, in _resolve
+    return _import_module(self.mod)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/vendored/six.py", line 87, in _import_module
+    __import__(name)
+  File "/usr/lib/python3.6/html/parser.py", line 13, in <module>
+    import _markupbase
+  File "/usr/lib/python3.6/_markupbase.py", line 11, in <module>
+    _declstringlit_match = re.compile(r'(\'[^\']*\'|"[^"]*")\s*').match
+  File "/usr/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.6/sre_compile.py", line 562, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.6/sre_parse.py", line 855, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 765, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 486, in _parse
+    if this in "|)":
+KeyboardInterrupt
+2015329
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 6, in <module>
+    import pandas as pd
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+KeyboardInterrupt
+2015328
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 37, in get_last_partition
+    partitions,output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 50, in query_athena
+    state, output = get_query_state(queryId)
+  File "query_athena_thread_delete.py", line 80, in get_query_state
+    QueryExecutionId=queryId
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/client.py", line 391, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/client.py", line 706, in _make_api_call
+    operation_model, request_dict, request_context)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/client.py", line 725, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 104, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 137, in _send_request
+    request, operation_model, context)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 168, in _get_response
+    request, operation_model)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 201, in _do_get_response
+    http_response = self._send(request)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 270, in _send
+    return self.http_session.send(request)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/httpsession.py", line 394, in send
+    chunked=self._chunked(request.headers),
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 184, in <module>
+    output, scene_filter = query_manager()
+  File "query_athena_thread_delete.py", line 96, in query_manager
+    partitionDate = get_last_partition()
+  File "query_athena_thread_delete.py", line 40, in get_last_partition
+    result, output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+2015327
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+KeyboardInterrupt
+2015326
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/__init__.py", line 17, in <module>
+    from boto3.session import Session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/session.py", line 28, in <module>
+    import botocore.configloader
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/configloader.py", line 19, in <module>
+    from botocore.compat import six
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/compat.py", line 28, in <module>
+    from urllib3 import exceptions
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/__init__.py", line 11, in <module>
+    from . import exceptions
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/exceptions.py", line 3, in <module>
+    from .packages.six.moves.http_client import IncompleteRead as httplib_IncompleteRead
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 192, in find_spec
+    return spec_from_loader(fullname, self)
+  File "<frozen importlib._bootstrap>", line 449, in spec_from_loader
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 222, in is_package
+    return hasattr(self.__get_module(fullname), "__path__")
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 121, in __getattr__
+    _module = self._resolve()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 118, in _resolve
+    return _import_module(self.mod)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 87, in _import_module
+    __import__(name)
+  File "<frozen importlib._bootstrap>", line 968, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 149, in __enter__
+  File "<frozen importlib._bootstrap>", line 88, in acquire
+KeyboardInterrupt
+2015325
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 37, in get_last_partition
+    partitions,output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 184, in <module>
+    output, scene_filter = query_manager()
+  File "query_athena_thread_delete.py", line 101, in query_manager
+    partitionDate = get_last_partition()
+  File "query_athena_thread_delete.py", line 40, in get_last_partition
+    result, output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+2015324
+Fatal Python error: Py_Initialize: can't initialize sys standard streams
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/io.py", line 52, in <module>
+    import abc
+  File "/usr/lib/python3.6/abc.py", line 6, in <module>
+    from _weakrefset import WeakSet
+  File "/usr/lib/python3.6/_weakrefset.py", line 10, in <module>
+    class _IterationGuard:
+KeyboardInterrupt
+./stage_deletion.sh: line 8:  9696 Aborted                 python3 -u query_athena_thread_delete.py $doy
+2015323
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/__init__.py", line 17, in <module>
+    from boto3.session import Session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/session.py", line 28, in <module>
+    import botocore.configloader
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/configloader.py", line 19, in <module>
+    from botocore.compat import six
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/compat.py", line 28, in <module>
+    from urllib3 import exceptions
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/__init__.py", line 11, in <module>
+    from . import exceptions
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/exceptions.py", line 3, in <module>
+    from .packages.six.moves.http_client import IncompleteRead as httplib_IncompleteRead
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 192, in find_spec
+    return spec_from_loader(fullname, self)
+  File "<frozen importlib._bootstrap>", line 449, in spec_from_loader
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 222, in is_package
+    return hasattr(self.__get_module(fullname), "__path__")
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 121, in __getattr__
+    _module = self._resolve()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 118, in _resolve
+    return _import_module(self.mod)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 87, in _import_module
+    __import__(name)
+  File "/usr/lib/python3.6/http/client.py", line 1397, in <module>
+    import ssl
+  File "/usr/lib/python3.6/ssl.py", line 93, in <module>
+    import ipaddress
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+KeyboardInterrupt
+2015322
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 37, in get_last_partition
+    partitions,output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 184, in <module>
+    output, scene_filter = query_manager()
+  File "query_athena_thread_delete.py", line 96, in query_manager
+    partitionDate = get_last_partition()
+  File "query_athena_thread_delete.py", line 40, in get_last_partition
+    result, output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+2015321
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/__init__.py", line 17, in <module>
+    from boto3.session import Session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/session.py", line 29, in <module>
+    import botocore.credentials
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/credentials.py", line 34, in <module>
+    from botocore.config import Config
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/config.py", line 16, in <module>
+    from botocore.endpoint import DEFAULT_TIMEOUT, MAX_POOL_CONNECTIONS
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 22, in <module>
+    from botocore.awsrequest import create_request_object
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/awsrequest.py", line 24, in <module>
+    import botocore.utils
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/utils.py", line 32, in <module>
+    import botocore.httpsession
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/httpsession.py", line 28, in <module>
+    from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 50, in <module>
+    import OpenSSL.crypto
+  File "/usr/lib/python3/dist-packages/OpenSSL/__init__.py", line 8, in <module>
+    from OpenSSL import crypto, SSL
+  File "/usr/lib/python3/dist-packages/OpenSSL/crypto.py", line 16, in <module>
+    from OpenSSL._util import (
+  File "/usr/lib/python3/dist-packages/OpenSSL/_util.py", line 6, in <module>
+    from cryptography.hazmat.bindings.openssl.binding import Binding
+  File "/usr/lib/python3/dist-packages/cryptography/hazmat/bindings/openssl/binding.py", line 13, in <module>
+    from cryptography.hazmat.bindings._openssl import ffi, lib
+KeyboardInterrupt
+2015320
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/__init__.py", line 17, in <module>
+    from boto3.session import Session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/session.py", line 22, in <module>
+    import boto3.utils
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/utils.py", line 22, in <module>
+    'resource_json_definitions',
+  File "/usr/lib/python3.6/collections/__init__.py", line 429, in namedtuple
+    exec(class_definition, namespace)
+  File "<string>", line 1, in <module>
+KeyboardInterrupt
+2015319
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 6, in <module>
+    import pandas as pd
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/pandas/__init__.py", line 11, in <module>
+    __import__(dependency)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/__init__.py", line 140, in <module>
+    from . import core
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/core/__init__.py", line 22, in <module>
+    from . import multiarray
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+KeyboardInterrupt
+2015318
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 37, in get_last_partition
+    partitions,output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 184, in <module>
+    output, scene_filter = query_manager()
+  File "query_athena_thread_delete.py", line 96, in query_manager
+    partitionDate = get_last_partition()
+  File "query_athena_thread_delete.py", line 40, in get_last_partition
+    result, output = query_athena(queryString)
+  File "query_athena_thread_delete.py", line 53, in query_athena
+    time.sleep(15)
+KeyboardInterrupt
+2015317
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 1, in <module>
+    import boto3
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/__init__.py", line 17, in <module>
+    from boto3.session import Session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/session.py", line 30, in <module>
+    import botocore.client
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/client.py", line 15, in <module>
+    from botocore import waiter, xform_name
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/botocore/waiter.py", line 13, in <module>
+    import jmespath
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/jmespath/__init__.py", line 3, in <module>
+    from jmespath import parser
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/jmespath/parser.py", line 30, in <module>
+    from jmespath import lexer
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/jmespath/lexer.py", line 5, in <module>
+    from jmespath.exceptions import LexerError, EmptyExpressionError
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/jmespath/exceptions.py", line 1, in <module>
+    from jmespath.compat import with_str_method
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/jmespath/compat.py", line 53, in <module>
+    from itertools import zip_longest
+  File "<frozen importlib._bootstrap>", line 1007, in _handle_fromlist
+KeyboardInterrupt
+2015316
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 6, in <module>
+    import pandas as pd
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/pandas/__init__.py", line 11, in <module>
+    __import__(dependency)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/__init__.py", line 143, in <module>
+    from . import lib
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/lib/__init__.py", line 37, in <module>
+    from .npyio import *
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/lib/npyio.py", line 19, in <module>
+    from ._iotools import (
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+KeyboardInterrupt
+2015315
+Traceback (most recent call last):
+  File "query_athena_thread_delete.py", line 6, in <module>
+    import pandas as pd
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/pandas/__init__.py", line 11, in <module>
+    __import__(dependency)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/__init__.py", line 223, in <module>
+    from .testing import Tester
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1128, in _get_spec
+KeyboardInterrupt
+2015314
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/10/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/6b79aa58-05a3-4ae8-9bdd-48588fc4127e.csv
+Successfully retrieved 0 objects with key filter %/2015/11/10/%
+2023-08-10 14:47:24.884314
+2023-08-10 14:47:24.948724
+2015313
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/09/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/9852f3fa-203d-47b5-a443-832dc4337088.csv
+Successfully retrieved 0 objects with key filter %/2015/11/09/%
+2023-08-10 14:48:27.128621
+2023-08-10 14:48:27.195441
+2015312
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/08/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c1405e6e-f924-4611-9711-c4deec37eba9.csv
+Successfully retrieved 0 objects with key filter %/2015/11/08/%
+2023-08-10 14:49:29.391529
+2023-08-10 14:49:29.454484
+2015311
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/07/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/8c291bec-873b-43d2-88a5-37200d8468b6.csv
+Successfully retrieved 0 objects with key filter %/2015/11/07/%
+2023-08-10 14:50:31.749799
+2023-08-10 14:50:31.814438
+2015310
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/06/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d6461d8d-917d-4bae-8b2c-11ebcbbd3061.csv
+Successfully retrieved 0 objects with key filter %/2015/11/06/%
+2023-08-10 14:51:34.148491
+2023-08-10 14:51:34.218370
+2015309
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/05/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/6bf8aeb2-817c-4b9d-b881-24ca33a0a31f.csv
+Successfully retrieved 0 objects with key filter %/2015/11/05/%
+2023-08-10 14:52:36.471393
+2023-08-10 14:52:36.536285
+2015308
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/04/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d71846a3-1e69-4bfb-982c-041e5b1b0660.csv
+Successfully retrieved 0 objects with key filter %/2015/11/04/%
+2023-08-10 14:53:38.949882
+2023-08-10 14:53:39.017600
+2015307
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/03/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b0520627-abb8-4323-a454-ce24f82ad4b6.csv
+Successfully retrieved 0 objects with key filter %/2015/11/03/%
+2023-08-10 14:54:41.235316
+2023-08-10 14:54:41.302729
+2015306
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/02/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/166c9362-9abe-49f7-ac05-31260ffed220.csv
+Successfully retrieved 0 objects with key filter %/2015/11/02/%
+2023-08-10 14:55:43.554292
+2023-08-10 14:55:43.617397
+2015305
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/11/01/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/347cb012-9e9a-4918-be1d-98d0dca7c484.csv
+Successfully retrieved 0 objects with key filter %/2015/11/01/%
+2023-08-10 14:56:45.808047
+2023-08-10 14:56:45.874728
+2015304
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/31/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/1abc4bc5-43e5-433a-9c5d-ccf855f54272.csv
+Successfully retrieved 0 objects with key filter %/2015/10/31/%
+2023-08-10 14:57:48.139438
+2023-08-10 14:57:48.209463
+2015303
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/30/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/7d6f3ea9-c3b3-4dae-b160-75758f7e8441.csv
+Successfully retrieved 0 objects with key filter %/2015/10/30/%
+2023-08-10 14:58:50.568723
+2023-08-10 14:58:50.637818
+2015302
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/29/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b7113790-0335-4d31-ad45-d4354d18117f.csv
+Successfully retrieved 0 objects with key filter %/2015/10/29/%
+2023-08-10 14:59:52.860021
+2023-08-10 14:59:52.925807
+2015301
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/28/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b755418d-41d3-4a8b-931b-eb245b7dba67.csv
+Successfully retrieved 0 objects with key filter %/2015/10/28/%
+2023-08-10 15:00:55.189731
+2023-08-10 15:00:55.258221
+2015300
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/27/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/e8a4cd17-6639-4f72-92b5-0c49a5825e66.csv
+Successfully retrieved 0 objects with key filter %/2015/10/27/%
+2023-08-10 15:01:57.538310
+2023-08-10 15:01:57.608120
+2015299
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/26/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/260438e7-f539-4c21-a7cd-02b7ffbe59a0.csv
+Successfully retrieved 0 objects with key filter %/2015/10/26/%
+2023-08-10 15:02:59.880275
+2023-08-10 15:02:59.945640
+2015298
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/25/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c5200ba5-5048-4dc5-8eff-6ac3fc00143b.csv
+Successfully retrieved 0 objects with key filter %/2015/10/25/%
+2023-08-10 15:04:02.324230
+2023-08-10 15:04:02.387046
+2015297
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/24/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d3c64c58-9f8b-412e-9337-609f9263a8d2.csv
+Successfully retrieved 0 objects with key filter %/2015/10/24/%
+2023-08-10 15:05:04.809167
+2023-08-10 15:05:04.878251
+2015296
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/23/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5d4a5edd-3c04-4098-9bc5-94997f15f204.csv
+Successfully retrieved 0 objects with key filter %/2015/10/23/%
+2023-08-10 15:06:07.138027
+2023-08-10 15:06:07.203098
+2015295
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/22/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/83b665b0-f204-412e-ae07-149cef8842a7.csv
+Successfully retrieved 0 objects with key filter %/2015/10/22/%
+2023-08-10 15:07:09.550019
+2023-08-10 15:07:09.614013
+2015294
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/21/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/880843fd-13e5-45a4-9fa6-57b14867c596.csv
+Successfully retrieved 0 objects with key filter %/2015/10/21/%
+2023-08-10 15:08:11.928336
+2023-08-10 15:08:12.000567
+2015293
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/20/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c36b5248-aef6-46b4-a651-3312faa9be24.csv
+Successfully retrieved 0 objects with key filter %/2015/10/20/%
+2023-08-10 15:09:14.294470
+2023-08-10 15:09:14.359400
+2015292
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/19/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/231d9e8f-7682-4c02-a3f1-e337cc279ecd.csv
+Successfully retrieved 0 objects with key filter %/2015/10/19/%
+2023-08-10 15:10:16.635509
+2023-08-10 15:10:16.702991
+2015291
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/18/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/7abd7893-61e8-452b-a29d-be68caf47a48.csv
+Successfully retrieved 0 objects with key filter %/2015/10/18/%
+2023-08-10 15:11:18.927693
+2023-08-10 15:11:18.997353
+2015290
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/17/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/6e61103a-28c5-4d53-9985-c89fafb75435.csv
+Successfully retrieved 0 objects with key filter %/2015/10/17/%
+2023-08-10 15:12:21.317185
+2023-08-10 15:12:21.384781
+2015289
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/16/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/8ad2706b-7c31-4991-be9a-239a42847e1b.csv
+Successfully retrieved 0 objects with key filter %/2015/10/16/%
+2023-08-10 15:13:23.696821
+2023-08-10 15:13:23.763994
+2015288
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/15/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/a7555971-e7ba-4391-acca-23c66d9d4b4f.csv
+Successfully retrieved 0 objects with key filter %/2015/10/15/%
+2023-08-10 15:14:26.050903
+2023-08-10 15:14:26.120088
+2015287
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/14/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/db8d371e-388c-4c1d-9aa8-c911e24d1ddc.csv
+Successfully retrieved 0 objects with key filter %/2015/10/14/%
+2023-08-10 15:15:28.359001
+2023-08-10 15:15:28.426658
+2015286
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/13/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/eba57cda-c39f-454e-964a-98e81f54d2c0.csv
+Successfully retrieved 0 objects with key filter %/2015/10/13/%
+2023-08-10 15:16:30.711165
+2023-08-10 15:16:30.774280
+2015285
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/12/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/0c7dc409-dc77-4c74-9eec-a545c8fbd3bd.csv
+Successfully retrieved 0 objects with key filter %/2015/10/12/%
+2023-08-10 15:17:33.158993
+2023-08-10 15:17:33.229040
+2015284
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/11/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/6aad68cd-0738-467b-84bd-14244968073b.csv
+Successfully retrieved 0 objects with key filter %/2015/10/11/%
+2023-08-10 15:18:35.454005
+2023-08-10 15:18:35.519702
+2015283
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/10/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/f11d615f-c717-4b26-bc15-fe130b3932be.csv
+Successfully retrieved 0 objects with key filter %/2015/10/10/%
+2023-08-10 15:19:37.870663
+2023-08-10 15:19:37.940172
+2015282
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/09/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/add2ce85-af8c-4a24-a642-12510cb5be80.csv
+Successfully retrieved 0 objects with key filter %/2015/10/09/%
+2023-08-10 15:20:40.203687
+2023-08-10 15:20:40.267549
+2015281
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/08/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/37205643-adc8-46f9-86aa-34797ac45b70.csv
+Successfully retrieved 0 objects with key filter %/2015/10/08/%
+2023-08-10 15:21:42.493796
+2023-08-10 15:21:42.563051
+2015280
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/07/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5b167064-0e0f-4aff-9209-581c432954f8.csv
+Successfully retrieved 0 objects with key filter %/2015/10/07/%
+2023-08-10 15:22:44.909310
+2023-08-10 15:22:44.978621
+2015279
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/06/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/49a47961-0cad-4163-b90a-82c1407d3a7a.csv
+Successfully retrieved 0 objects with key filter %/2015/10/06/%
+2023-08-10 15:23:47.264526
+2023-08-10 15:23:47.330035
+2015278
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/05/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c7642f50-deed-4873-b861-95dd103e8212.csv
+Successfully retrieved 0 objects with key filter %/2015/10/05/%
+2023-08-10 15:24:49.567941
+2023-08-10 15:24:49.634863
+2015277
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/04/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5c7e76a8-c14b-493b-a04c-62cce9aeeca8.csv
+Successfully retrieved 0 objects with key filter %/2015/10/04/%
+2023-08-10 15:25:51.850626
+2023-08-10 15:25:51.916241
+2015276
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/03/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5bc938c6-fb63-46bf-b69c-3c41aed7599d.csv
+Successfully retrieved 0 objects with key filter %/2015/10/03/%
+2023-08-10 15:26:54.234016
+2023-08-10 15:26:54.298890
+2015275
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/02/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/adfbd4fa-5e33-4feb-8285-a13dd2169a4a.csv
+Successfully retrieved 0 objects with key filter %/2015/10/02/%
+2023-08-10 15:27:56.620443
+2023-08-10 15:27:56.684844
+2015274
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/10/01/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/50792dc8-f469-4cf2-b364-68182b26643b.csv
+Successfully retrieved 0 objects with key filter %/2015/10/01/%
+2023-08-10 15:28:58.927248
+2023-08-10 15:28:59.001031
+2015273
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/30/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/0e948e57-48ed-44a8-ad9e-794cbaec94a2.csv
+Successfully retrieved 0 objects with key filter %/2015/09/30/%
+2023-08-10 15:30:01.260427
+2023-08-10 15:30:01.326443
+2015272
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/29/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/75c5c60b-ae6b-4851-8f59-7e4d8cac042e.csv
+Successfully retrieved 0 objects with key filter %/2015/09/29/%
+2023-08-10 15:31:03.795130
+2023-08-10 15:31:03.860882
+2015271
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/28/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/0dc6daed-283d-4f6c-b36c-7b9c14a95f5e.csv
+Successfully retrieved 0 objects with key filter %/2015/09/28/%
+2023-08-10 15:32:06.170006
+2023-08-10 15:32:06.237676
+2015270
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/27/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/024ea2c8-3627-4ab2-aba0-764e6f764834.csv
+Successfully retrieved 0 objects with key filter %/2015/09/27/%
+2023-08-10 15:33:08.487411
+2023-08-10 15:33:08.556025
+2015269
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/26/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/574e4975-8748-48bd-bdc2-8154264923dc.csv
+Successfully retrieved 0 objects with key filter %/2015/09/26/%
+2023-08-10 15:34:10.875711
+2023-08-10 15:34:10.943922
+2015268
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/25/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b04cf1ad-4a95-404a-a360-be85a4bbb0b4.csv
+Successfully retrieved 0 objects with key filter %/2015/09/25/%
+2023-08-10 15:35:13.240139
+2023-08-10 15:35:13.309302
+2015267
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/24/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d082d0b9-fb07-40c6-8d6f-dd52fe589cf1.csv
+Successfully retrieved 0 objects with key filter %/2015/09/24/%
+2023-08-10 15:36:15.571854
+2023-08-10 15:36:15.641874
+2015266
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/23/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/22de78af-fb0f-4a2c-b1f1-6c8bcdbf88ef.csv
+Successfully retrieved 0 objects with key filter %/2015/09/23/%
+2023-08-10 15:37:17.996098
+2023-08-10 15:37:18.068800
+2015265
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/22/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/2d8e1f4e-fde7-4d63-bfb5-87236e1a1009.csv
+Successfully retrieved 0 objects with key filter %/2015/09/22/%
+2023-08-10 15:38:20.322919
+2023-08-10 15:38:20.389868
+2015264
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/21/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/61460ba0-600a-435c-b0b6-a6441b3e41ba.csv
+Successfully retrieved 0 objects with key filter %/2015/09/21/%
+2023-08-10 15:39:22.690913
+2023-08-10 15:39:22.763645
+2015263
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/20/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/e3113ff7-b1b6-446d-a801-a322beef0669.csv
+Successfully retrieved 0 objects with key filter %/2015/09/20/%
+2023-08-10 15:40:25.029773
+2023-08-10 15:40:25.097103
+2015262
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/19/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/60e58abf-ffa9-4e42-ba80-832fa7a017d0.csv
+Successfully retrieved 0 objects with key filter %/2015/09/19/%
+2023-08-10 15:41:27.394687
+2023-08-10 15:41:27.460851
+2015261
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/18/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c4ee7c54-8617-47c4-bce5-79415c838f0d.csv
+Successfully retrieved 0 objects with key filter %/2015/09/18/%
+2023-08-10 15:42:29.792736
+2023-08-10 15:42:29.865765
+2015260
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/17/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/eaa6e203-1b22-4486-984d-54406c949c2e.csv
+Successfully retrieved 0 objects with key filter %/2015/09/17/%
+2023-08-10 15:43:32.093631
+2023-08-10 15:43:32.157754
+2015259
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/16/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/98ef4567-8c8c-4e5b-b45a-6bf5f99954f0.csv
+Successfully retrieved 0 objects with key filter %/2015/09/16/%
+2023-08-10 15:44:34.408696
+2023-08-10 15:44:34.475327
+2015258
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/15/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/ab51bcaa-a529-4b02-b7d1-6b6e448d847f.csv
+Successfully retrieved 0 objects with key filter %/2015/09/15/%
+2023-08-10 15:45:36.716065
+2023-08-10 15:45:36.779582
+2015257
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/14/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/953b35cc-5816-43a6-a8f2-cbcd49cffb76.csv
+Successfully retrieved 0 objects with key filter %/2015/09/14/%
+2023-08-10 15:46:39.046476
+2023-08-10 15:46:39.111816
+2015256
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/13/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/8a5ebace-8a6a-4b4f-b17d-34c915221d05.csv
+Successfully retrieved 0 objects with key filter %/2015/09/13/%
+2023-08-10 15:47:41.371708
+2023-08-10 15:47:41.436311
+2015255
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/12/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/51785730-e03e-47c5-a9c6-7bfe788ddd9d.csv
+Successfully retrieved 0 objects with key filter %/2015/09/12/%
+2023-08-10 15:48:43.698570
+2023-08-10 15:48:43.764299
+2015254
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/11/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/921f5f66-e7c2-4c9a-8628-bfdff349ab1a.csv
+Successfully retrieved 0 objects with key filter %/2015/09/11/%
+2023-08-10 15:49:46.044094
+2023-08-10 15:49:46.115648
+2015253
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/10/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/42320a41-2fef-4232-9ae7-0a136ee29fbc.csv
+Successfully retrieved 0 objects with key filter %/2015/09/10/%
+2023-08-10 15:50:48.582239
+2023-08-10 15:50:48.649338
+2015252
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/09/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/89511196-785c-48a0-96f8-cb144f2483e3.csv
+Successfully retrieved 0 objects with key filter %/2015/09/09/%
+2023-08-10 15:51:50.874822
+2023-08-10 15:51:50.939355
+2015251
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/08/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/129533e7-14ad-4b42-a03e-fc277700031f.csv
+Successfully retrieved 0 objects with key filter %/2015/09/08/%
+2023-08-10 15:52:53.280547
+2023-08-10 15:52:53.344354
+2015250
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/07/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/fd9f830b-4172-45b0-955d-331b10a783d2.csv
+Successfully retrieved 0 objects with key filter %/2015/09/07/%
+2023-08-10 15:53:55.713833
+2023-08-10 15:53:55.779384
+2015249
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/06/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/398126ef-82b9-4138-96f0-0c39fbb544e6.csv
+Successfully retrieved 0 objects with key filter %/2015/09/06/%
+2023-08-10 15:54:58.030977
+2023-08-10 15:54:58.095942
+2015248
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/05/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/4e1228e6-bd0f-4434-857f-8827c4b08bf8.csv
+Successfully retrieved 0 objects with key filter %/2015/09/05/%
+2023-08-10 15:56:00.304300
+2023-08-10 15:56:00.378384
+2015247
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/04/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b8d10877-d7b3-498a-a322-3147f76b365f.csv
+Successfully retrieved 0 objects with key filter %/2015/09/04/%
+2023-08-10 15:57:02.677157
+2023-08-10 15:57:02.745685
+2015246
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/03/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/9c1e92c4-6989-4869-a284-04c428e2c822.csv
+Successfully retrieved 0 objects with key filter %/2015/09/03/%
+2023-08-10 15:58:05.056880
+2023-08-10 15:58:05.124273
+2015245
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/02/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/23f569e4-c6ce-4d06-bdac-c22fead1d6d1.csv
+Successfully retrieved 0 objects with key filter %/2015/09/02/%
+2023-08-10 15:59:07.567279
+2023-08-10 15:59:07.636710
+2015244
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/09/01/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/a3ab5fdf-155a-4599-b711-fa31d275a66d.csv
+Successfully retrieved 0 objects with key filter %/2015/09/01/%
+2023-08-10 16:00:09.854819
+2023-08-10 16:00:09.924445
+2015243
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/31/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5ee01006-bbce-4177-8f4a-b77dc85aeba9.csv
+Successfully retrieved 0 objects with key filter %/2015/08/31/%
+2023-08-10 16:01:12.192477
+2023-08-10 16:01:12.262032
+2015242
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/30/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/02dd780a-6527-419f-9af9-a6c5534043b4.csv
+Successfully retrieved 0 objects with key filter %/2015/08/30/%
+2023-08-10 16:02:14.520592
+2023-08-10 16:02:14.589913
+2015241
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/29/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b147485b-9e7f-42de-818a-8a6e549fa661.csv
+Successfully retrieved 0 objects with key filter %/2015/08/29/%
+2023-08-10 16:03:16.826020
+2023-08-10 16:03:16.892755
+2015240
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/28/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/fe953974-8fc6-488e-86e4-478f597ec2e7.csv
+Successfully retrieved 0 objects with key filter %/2015/08/28/%
+2023-08-10 16:04:19.185494
+2023-08-10 16:04:19.255813
+2015239
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/27/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/1eabb88a-9b89-4878-899b-4d04cf615060.csv
+Successfully retrieved 0 objects with key filter %/2015/08/27/%
+2023-08-10 16:05:21.541954
+2023-08-10 16:05:21.614054
+2015238
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/26/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/02105df1-dcf1-48ec-8d24-c2ab29376640.csv
+Successfully retrieved 0 objects with key filter %/2015/08/26/%
+2023-08-10 16:06:23.900806
+2023-08-10 16:06:23.971088
+2015237
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/25/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/21954af9-1770-4c4d-9c32-c70bde0dd863.csv
+Successfully retrieved 0 objects with key filter %/2015/08/25/%
+2023-08-10 16:07:26.248768
+2023-08-10 16:07:26.317746
+2015236
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/24/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/3de607ed-7c6b-4471-bc5f-27cb19e87cae.csv
+Successfully retrieved 0 objects with key filter %/2015/08/24/%
+2023-08-10 16:08:28.582569
+2023-08-10 16:08:28.652925
+2015235
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/23/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/eb45fd85-e70f-4129-a0e6-e79bf734dc50.csv
+Successfully retrieved 0 objects with key filter %/2015/08/23/%
+2023-08-10 16:09:30.907725
+2023-08-10 16:09:30.971297
+2015234
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/22/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/52e6159c-7743-4710-b2e9-f8347fd61062.csv
+Successfully retrieved 0 objects with key filter %/2015/08/22/%
+2023-08-10 16:10:33.262696
+2023-08-10 16:10:33.329278
+2015233
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently RUNNING for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/21/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/7afa8fba-785b-464c-8240-1241c8bc873d.csv
+Successfully retrieved 0 objects with key filter %/2015/08/21/%
+2023-08-10 16:11:50.707364
+2023-08-10 16:11:50.773698
+2015232
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/20/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/f765722d-8530-4c0c-96ff-de523c312ce0.csv
+Successfully retrieved 0 objects with key filter %/2015/08/20/%
+2023-08-10 16:12:53.075918
+2023-08-10 16:12:53.142577
+2015231
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/19/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d31f8a10-d69e-4d4a-8869-7d39eb37b2bd.csv
+Successfully retrieved 0 objects with key filter %/2015/08/19/%
+2023-08-10 16:13:55.483590
+2023-08-10 16:13:55.555980
+2015230
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/18/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/a81f484a-aa88-4fe2-9551-8baef7618d8a.csv
+Successfully retrieved 0 objects with key filter %/2015/08/18/%
+2023-08-10 16:14:57.818949
+2023-08-10 16:14:57.888251
+2015229
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently RUNNING for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/17/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/f1ae6227-c2ba-4191-be5f-c1d401b14dc3.csv
+Successfully retrieved 0 objects with key filter %/2015/08/17/%
+2023-08-10 16:16:15.152252
+2023-08-10 16:16:15.216502
+2015228
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/16/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b8e2e0f5-fdf2-4dc0-b332-c14533f9bd82.csv
+Successfully retrieved 0 objects with key filter %/2015/08/16/%
+2023-08-10 16:17:17.581637
+2023-08-10 16:17:17.649347
+2015227
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/15/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5ae992e8-0530-4a48-a9cd-ee0d9de4638c.csv
+Successfully retrieved 0 objects with key filter %/2015/08/15/%
+2023-08-10 16:18:19.965935
+2023-08-10 16:18:20.032873
+2015226
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/14/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5b58c48d-0ea9-46f1-8dad-2e7b128b409d.csv
+Successfully retrieved 0 objects with key filter %/2015/08/14/%
+2023-08-10 16:19:22.304476
+2023-08-10 16:19:22.374898
+2015225
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/13/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/8202f462-f711-41c2-9e07-1340facdb290.csv
+Successfully retrieved 0 objects with key filter %/2015/08/13/%
+2023-08-10 16:20:24.795454
+2023-08-10 16:20:24.864773
+2015224
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/12/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/bb85167c-42c6-4915-b409-19c886c663c8.csv
+Successfully retrieved 0 objects with key filter %/2015/08/12/%
+2023-08-10 16:21:27.128273
+2023-08-10 16:21:27.195157
+2015223
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/11/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d8e2d945-66bc-44e4-bbf8-4a62ed25c915.csv
+Successfully retrieved 0 objects with key filter %/2015/08/11/%
+2023-08-10 16:22:29.530985
+2023-08-10 16:22:29.604495
+2015222
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/10/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/01c830df-41f1-43f3-a6a8-1a6f13750752.csv
+Successfully retrieved 0 objects with key filter %/2015/08/10/%
+2023-08-10 16:23:31.909759
+2023-08-10 16:23:31.976355
+2015221
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/09/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/92d3fc4a-6f4d-46ed-b00a-6bba4c45856b.csv
+Successfully retrieved 0 objects with key filter %/2015/08/09/%
+2023-08-10 16:24:34.266532
+2023-08-10 16:24:34.334284
+2015220
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/08/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/2920fd42-dee9-4b39-8771-7fd220b2e328.csv
+Successfully retrieved 0 objects with key filter %/2015/08/08/%
+2023-08-10 16:25:36.577532
+2023-08-10 16:25:36.643010
+2015219
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/07/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b13ef495-abe4-471c-bf57-291fe44c0cfc.csv
+Successfully retrieved 0 objects with key filter %/2015/08/07/%
+2023-08-10 16:26:39.087139
+2023-08-10 16:26:39.153317
+2015218
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/06/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/233a3521-31d6-4163-898d-bbbeb1a874c0.csv
+Successfully retrieved 0 objects with key filter %/2015/08/06/%
+2023-08-10 16:27:41.526810
+2023-08-10 16:27:41.591483
+2015217
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/05/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d1a46eaf-a850-43d2-a70f-4c48de50ae67.csv
+Successfully retrieved 0 objects with key filter %/2015/08/05/%
+2023-08-10 16:28:43.865037
+2023-08-10 16:28:43.930818
+2015216
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/04/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5231a181-4304-400c-aa6f-cc8274d17c8b.csv
+Successfully retrieved 0 objects with key filter %/2015/08/04/%
+2023-08-10 16:29:46.281269
+2023-08-10 16:29:46.347259
+2015215
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/03/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/74e03c69-edd1-4fab-94ef-e50dbd1eaa7a.csv
+Successfully retrieved 0 objects with key filter %/2015/08/03/%
+2023-08-10 16:30:48.735098
+2023-08-10 16:30:48.801773
+2015214
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/02/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d8ee02ae-7919-45cf-b8a7-b660f1cc105b.csv
+Successfully retrieved 0 objects with key filter %/2015/08/02/%
+2023-08-10 16:31:51.317793
+2023-08-10 16:31:51.382079
+2015213
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/08/01/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/bf9cb5cd-23a9-4a74-aeb3-a2f1874eb300.csv
+Successfully retrieved 0 objects with key filter %/2015/08/01/%
+2023-08-10 16:32:53.691877
+2023-08-10 16:32:53.756427
+2015212
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/31/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/bd237d4e-1a8c-42ab-a6a3-0f8ba995687b.csv
+Successfully retrieved 0 objects with key filter %/2015/07/31/%
+2023-08-10 16:33:56.022645
+2023-08-10 16:33:56.088585
+2015211
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/30/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c75e77d1-41d6-4d5b-b80e-61bba0f4c239.csv
+Successfully retrieved 0 objects with key filter %/2015/07/30/%
+2023-08-10 16:34:58.363695
+2023-08-10 16:34:58.427591
+2015210
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/29/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d56b8b08-2b01-49d1-af12-7d14b0901a64.csv
+Successfully retrieved 0 objects with key filter %/2015/07/29/%
+2023-08-10 16:36:00.718752
+2023-08-10 16:36:00.785611
+2015209
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/28/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/538d9a03-b633-40f2-926e-73c55dc609b8.csv
+Successfully retrieved 0 objects with key filter %/2015/07/28/%
+2023-08-10 16:37:03.131612
+2023-08-10 16:37:03.197563
+2015208
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/27/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/ce063f5f-29b3-470d-9171-8d24389d9127.csv
+Successfully retrieved 0 objects with key filter %/2015/07/27/%
+2023-08-10 16:38:05.576376
+2023-08-10 16:38:05.642473
+2015207
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/26/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c3c52ede-8d41-4e7f-8f5f-a03414304648.csv
+Successfully retrieved 0 objects with key filter %/2015/07/26/%
+2023-08-10 16:39:07.948573
+2023-08-10 16:39:08.017320
+2015206
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/25/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/135bd3eb-db01-471a-85b8-8b3223a8ca43.csv
+Successfully retrieved 0 objects with key filter %/2015/07/25/%
+2023-08-10 16:40:10.256993
+2023-08-10 16:40:10.323279
+2015205
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/24/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/51db3d2b-4262-42de-a635-4ec64713330c.csv
+Successfully retrieved 0 objects with key filter %/2015/07/24/%
+2023-08-10 16:41:12.606541
+2023-08-10 16:41:12.674071
+2015204
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/23/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b4623c6e-ef35-43c9-897c-9ac76ee665dd.csv
+Successfully retrieved 0 objects with key filter %/2015/07/23/%
+2023-08-10 16:42:15.015450
+2023-08-10 16:42:15.085672
+2015203
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/22/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/50fa0770-2af1-478b-8ee9-a7115cd2806d.csv
+Successfully retrieved 0 objects with key filter %/2015/07/22/%
+2023-08-10 16:43:17.379191
+2023-08-10 16:43:17.451425
+2015202
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/21/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/84a3d79b-bbc8-4631-8ba2-02e3afd7d0df.csv
+Successfully retrieved 0 objects with key filter %/2015/07/21/%
+2023-08-10 16:44:19.814556
+2023-08-10 16:44:19.880509
+2015201
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/20/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/99c574c7-64af-4451-a89c-eed82af9fb48.csv
+Successfully retrieved 0 objects with key filter %/2015/07/20/%
+2023-08-10 16:45:22.251636
+2023-08-10 16:45:22.322937
+2015200
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/19/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/0dbb968a-6da6-45f4-86ba-d70e6828b25e.csv
+Successfully retrieved 0 objects with key filter %/2015/07/19/%
+2023-08-10 16:46:24.565243
+2023-08-10 16:46:24.631891
+2015199
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/18/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/83ee92dd-ee74-4d00-82dd-80ed6f20f1f9.csv
+Successfully retrieved 0 objects with key filter %/2015/07/18/%
+2023-08-10 16:47:26.894453
+2023-08-10 16:47:26.964047
+2015198
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/17/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/001ed953-961f-4e9c-aa6f-c630502eaccf.csv
+Successfully retrieved 0 objects with key filter %/2015/07/17/%
+2023-08-10 16:48:29.175866
+2023-08-10 16:48:29.240314
+2015197
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/16/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/ca795441-82e5-454d-8e9b-7ab7c67edcb5.csv
+Successfully retrieved 0 objects with key filter %/2015/07/16/%
+2023-08-10 16:49:31.570614
+2023-08-10 16:49:31.635228
+2015196
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/15/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/ca6a531f-3bef-4770-940b-5bea18c1081f.csv
+Successfully retrieved 0 objects with key filter %/2015/07/15/%
+2023-08-10 16:50:33.991438
+2023-08-10 16:50:34.055312
+2015195
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/14/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c8dd4019-f1a8-4dbc-a449-8b9b20b96b71.csv
+Successfully retrieved 0 objects with key filter %/2015/07/14/%
+2023-08-10 16:51:36.493856
+2023-08-10 16:51:36.566003
+2015194
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/13/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/08b2bfac-8290-409b-8e51-82df93d83521.csv
+Successfully retrieved 0 objects with key filter %/2015/07/13/%
+2023-08-10 16:52:38.910767
+2023-08-10 16:52:38.979215
+2015193
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/12/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/15f32f8c-4fa3-444b-9f40-411a7f33bdf6.csv
+Successfully retrieved 0 objects with key filter %/2015/07/12/%
+2023-08-10 16:53:41.274265
+2023-08-10 16:53:41.343127
+2015192
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/11/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/1f4953dc-e90e-4fab-9369-3c4974b30ccf.csv
+Successfully retrieved 0 objects with key filter %/2015/07/11/%
+2023-08-10 16:54:43.639413
+2023-08-10 16:54:43.703228
+2015191
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/10/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/ae53b03f-5a24-43d4-b527-04fb1a74737a.csv
+Successfully retrieved 0 objects with key filter %/2015/07/10/%
+2023-08-10 16:55:46.028157
+2023-08-10 16:55:46.098619
+2015190
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/09/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/4e0eec05-10af-4e13-a805-3c1ab6c5d1b5.csv
+Successfully retrieved 0 objects with key filter %/2015/07/09/%
+2023-08-10 16:56:48.417260
+2023-08-10 16:56:48.486167
+2015189
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/08/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/fdb6a589-2aed-43a3-9c75-926cc20565ff.csv
+Successfully retrieved 0 objects with key filter %/2015/07/08/%
+2023-08-10 16:57:50.749436
+2023-08-10 16:57:50.813734
+2015188
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/07/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/53c27263-6826-4cc3-8c06-90e8d4862569.csv
+Successfully retrieved 0 objects with key filter %/2015/07/07/%
+2023-08-10 16:58:53.176158
+2023-08-10 16:58:53.245288
+2015187
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/06/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/4ee1badc-dac2-463f-a502-c600c85a5c71.csv
+Successfully retrieved 0 objects with key filter %/2015/07/06/%
+2023-08-10 16:59:55.530182
+2023-08-10 16:59:55.597749
+2015186
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/05/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d95ba658-0751-4e06-baab-708c10a79efa.csv
+Successfully retrieved 0 objects with key filter %/2015/07/05/%
+2023-08-10 17:00:57.910131
+2023-08-10 17:00:57.977758
+2015185
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/04/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/fdc2f7cd-ca0b-4acb-9895-0ce44526aff8.csv
+Successfully retrieved 0 objects with key filter %/2015/07/04/%
+2023-08-10 17:02:00.331063
+2023-08-10 17:02:00.399081
+2015184
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/03/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/2f53ba40-38a6-4774-9fd0-225bcf334093.csv
+Successfully retrieved 0 objects with key filter %/2015/07/03/%
+2023-08-10 17:03:02.646942
+2023-08-10 17:03:02.712817
+2015183
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/02/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/a937b61d-9f1a-4c9f-8a3c-2b3cdca78672.csv
+Successfully retrieved 0 objects with key filter %/2015/07/02/%
+2023-08-10 17:04:04.975392
+2023-08-10 17:04:05.043393
+2015182
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/07/01/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c99b3f8c-e0d3-4e83-9b85-2a63b92b473e.csv
+Successfully retrieved 0 objects with key filter %/2015/07/01/%
+2023-08-10 17:05:07.344430
+2023-08-10 17:05:07.408212
+2015181
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/30/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/523ec8b5-5fb6-4882-bc42-93937245b4af.csv
+Successfully retrieved 0 objects with key filter %/2015/06/30/%
+2023-08-10 17:06:09.751851
+2023-08-10 17:06:09.817752
+2015180
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/29/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/393f7e56-932f-4a7f-9096-1f0f5640c365.csv
+Successfully retrieved 0 objects with key filter %/2015/06/29/%
+2023-08-10 17:07:12.095894
+2023-08-10 17:07:12.159577
+2015179
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/28/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/6c4d79a6-32da-416d-95ec-8f44646f2784.csv
+Successfully retrieved 0 objects with key filter %/2015/06/28/%
+2023-08-10 17:08:14.504941
+2023-08-10 17:08:14.574466
+2015178
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/27/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/4f51d61a-a875-4216-aed7-63887701a1d5.csv
+Successfully retrieved 0 objects with key filter %/2015/06/27/%
+2023-08-10 17:09:16.942517
+2023-08-10 17:09:17.010671
+2015177
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/26/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/f9618cad-d1e2-48b3-92c1-b8ece9202b50.csv
+Successfully retrieved 0 objects with key filter %/2015/06/26/%
+2023-08-10 17:10:19.382262
+2023-08-10 17:10:19.448393
+2015176
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/25/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/8a1cd130-0366-42a4-8eca-6d367fcf1101.csv
+Successfully retrieved 0 objects with key filter %/2015/06/25/%
+2023-08-10 17:11:21.834236
+2023-08-10 17:11:21.902252
+2015175
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/24/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5742fea7-011d-4334-a846-f80e0c66d283.csv
+Successfully retrieved 0 objects with key filter %/2015/06/24/%
+2023-08-10 17:12:24.110374
+2023-08-10 17:12:24.175564
+2015174
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/23/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/c909b4d8-ad11-4a8e-9dda-eeb870d8b0f0.csv
+Successfully retrieved 0 objects with key filter %/2015/06/23/%
+2023-08-10 17:13:26.522567
+2023-08-10 17:13:26.591965
+2015173
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/22/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/91abb27c-65fe-475a-b109-eaf65e2ce56e.csv
+Successfully retrieved 0 objects with key filter %/2015/06/22/%
+2023-08-10 17:14:28.840130
+2023-08-10 17:14:28.908051
+2015172
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/21/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/f842ac3c-c10a-4294-9fc3-87f819c9c59a.csv
+Successfully retrieved 0 objects with key filter %/2015/06/21/%
+2023-08-10 17:15:31.252152
+2023-08-10 17:15:31.316344
+2015171
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/20/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b40de088-4d01-4854-af13-f85b4b850b68.csv
+Successfully retrieved 0 objects with key filter %/2015/06/20/%
+2023-08-10 17:16:33.615554
+2023-08-10 17:16:33.682060
+2015170
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/19/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/1e84dc61-1f1a-4e2d-b82d-eeff36f6a0fd.csv
+Successfully retrieved 0 objects with key filter %/2015/06/19/%
+2023-08-10 17:17:35.962116
+2023-08-10 17:17:36.026885
+2015169
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/18/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/601ab9a7-4651-4ee3-9121-9d49e2a3c445.csv
+Successfully retrieved 0 objects with key filter %/2015/06/18/%
+2023-08-10 17:18:38.281140
+2023-08-10 17:18:38.350831
+2015168
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/17/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/cd1bbbeb-5881-46ab-9cef-9215f3613aea.csv
+Successfully retrieved 0 objects with key filter %/2015/06/17/%
+2023-08-10 17:19:40.570127
+2023-08-10 17:19:40.638374
+2015167
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/16/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/7431e5ca-6d1e-445c-90da-f4b491950ebb.csv
+Successfully retrieved 0 objects with key filter %/2015/06/16/%
+2023-08-10 17:20:42.969226
+2023-08-10 17:20:43.034128
+2015166
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/15/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/ec624cfe-148f-4828-809f-0d6fda589b86.csv
+Successfully retrieved 0 objects with key filter %/2015/06/15/%
+2023-08-10 17:21:45.335357
+2023-08-10 17:21:45.402305
+2015165
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/14/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/24d9733c-97b9-4baf-804e-3b7eece78f8a.csv
+Successfully retrieved 0 objects with key filter %/2015/06/14/%
+2023-08-10 17:22:47.694953
+2023-08-10 17:22:47.764766
+2015164
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/13/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d9bb42e0-f9da-4157-a5ed-6f0466b6c6eb.csv
+Successfully retrieved 0 objects with key filter %/2015/06/13/%
+2023-08-10 17:23:50.034422
+2023-08-10 17:23:50.099565
+2015163
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/12/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/26cfbb65-8ed1-4387-9dec-08f83c44717e.csv
+Successfully retrieved 0 objects with key filter %/2015/06/12/%
+2023-08-10 17:24:52.342963
+2023-08-10 17:24:52.408654
+2015162
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-08-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-08-01-00' AND key like '%/2015/06/11/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/887ae84e-49cc-4e83-8128-5714d231651a.csv
+Successfully retrieved 0 objects with key filter %/2015/06/11/%
+2023-08-10 17:25:54.778387
+2023-08-10 17:25:54.844352
+2015161
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/10/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/71686034-ed75-4aa7-bb0f-e4af8e7ec5ef.csv
+Successfully retrieved 0 objects with key filter %/2015/06/10/%
+2023-08-10 17:26:57.267535
+2023-08-10 17:26:57.332437
+2015160
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/09/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/0c21619d-a6ca-49ee-8919-09022c3b0ff3.csv
+Successfully retrieved 0 objects with key filter %/2015/06/09/%
+2023-08-10 17:27:59.749995
+2023-08-10 17:27:59.823196
+2015159
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/08/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/3f83222a-59c3-4034-aa33-096f2d72d0fc.csv
+Successfully retrieved 0 objects with key filter %/2015/06/08/%
+2023-08-10 17:29:02.168600
+2023-08-10 17:29:02.237022
+2015158
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/07/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/3a368fae-acb3-4329-9107-b29cd301b6cd.csv
+Successfully retrieved 0 objects with key filter %/2015/06/07/%
+2023-08-10 17:30:04.557878
+2023-08-10 17:30:04.626991
+2015157
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/06/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/366e946f-7b8a-4daf-a425-f9881cca9c92.csv
+Successfully retrieved 0 objects with key filter %/2015/06/06/%
+2023-08-10 17:31:06.927413
+2023-08-10 17:31:06.993743
+2015156
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/05/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/b61fd82c-66b7-4f71-9611-bd1e559ec068.csv
+Successfully retrieved 0 objects with key filter %/2015/06/05/%
+2023-08-10 17:32:09.303984
+2023-08-10 17:32:09.370364
+2015155
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/04/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/58c00579-71bf-4140-92aa-44e523b65344.csv
+Successfully retrieved 0 objects with key filter %/2015/06/04/%
+2023-08-10 17:33:11.711897
+2023-08-10 17:33:11.783227
+2015154
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/03/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/2dd4ef45-0e77-430f-916d-c1aeb6fbab73.csv
+Successfully retrieved 0 objects with key filter %/2015/06/03/%
+2023-08-10 17:34:14.191596
+2023-08-10 17:34:14.257000
+2015153
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/02/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/5f8ab844-d06e-46b9-9162-f360181fbcae.csv
+Successfully retrieved 0 objects with key filter %/2015/06/02/%
+2023-08-10 17:35:16.621465
+2023-08-10 17:35:16.690017
+2015152
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/06/01/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/40a7182a-8580-444b-9758-f140c602c90b.csv
+Successfully retrieved 0 objects with key filter %/2015/06/01/%
+2023-08-10 17:36:18.961007
+2023-08-10 17:36:19.034190
+2015151
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/05/31/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/d496ba37-472d-4acc-9ae7-8f16004c2507.csv
+Successfully retrieved 0 objects with key filter %/2015/05/31/%
+2023-08-10 17:37:21.385291
+2023-08-10 17:37:21.448777
+2015150
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-08-09-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-08-09-01-00' AND key like '%/2015/05/30/%''. Waiting 15 seconds
+s3://impact-s2-inventories/esa-data-transfer-staging/query_results/9369fcc1-4bff-44fe-81aa-5d5cfe02a0d0.csv
+Successfully retrieved 0 objects with key filter %/2015/05/30/%
+2023-08-10 17:38:23.777340
+2023-08-10 17:38:23.842916

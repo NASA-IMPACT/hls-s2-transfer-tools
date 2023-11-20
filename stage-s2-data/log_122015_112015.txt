@@ -1,0 +1,1176 @@
+nohup: ignoring input
+2015365
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/31/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1870 objects with key filter %/2015/12/31/%S2A%
+2023-06-14 15:02:05.342920
+Time: 2023-06-14 15:02:05.415344 - 1870 granules remaining
+Time: 2023-06-14 15:03:05.474848 - 1830 granules remaining
+Time: 2023-06-14 15:04:05.532403 - 1790 granules remaining
+Time: 2023-06-14 15:05:05.592422 - 1714 granules remaining
+Time: 2023-06-14 15:06:05.652410 - 1670 granules remaining
+Time: 2023-06-14 15:07:05.712403 - 1609 granules remaining
+Time: 2023-06-14 15:08:05.772488 - 1552 granules remaining
+Time: 2023-06-14 15:09:05.832403 - 1510 granules remaining
+Time: 2023-06-14 15:10:05.894288 - 1448 granules remaining
+Time: 2023-06-14 15:11:05.952429 - 1391 granules remaining
+Time: 2023-06-14 15:12:06.012406 - 1350 granules remaining
+Time: 2023-06-14 15:13:06.072407 - 1287 granules remaining
+Time: 2023-06-14 15:14:06.132430 - 1231 granules remaining
+Time: 2023-06-14 15:15:06.192407 - 1190 granules remaining
+Time: 2023-06-14 15:16:06.254863 - 1128 granules remaining
+Time: 2023-06-14 15:17:06.314015 - 1071 granules remaining
+Time: 2023-06-14 15:18:06.373175 - 1027 granules remaining
+Time: 2023-06-14 15:19:06.432409 - 971 granules remaining
+Time: 2023-06-14 15:20:06.492407 - 910 granules remaining
+Time: 2023-06-14 15:21:06.552401 - 868 granules remaining
+Time: 2023-06-14 15:22:06.612405 - 812 granules remaining
+Time: 2023-06-14 15:23:06.672406 - 754 granules remaining
+Time: 2023-06-14 15:24:06.732407 - 705 granules remaining
+Time: 2023-06-14 15:25:06.792406 - 653 granules remaining
+Time: 2023-06-14 15:26:06.852410 - 592 granules remaining
+Time: 2023-06-14 15:27:06.912405 - 543 granules remaining
+Time: 2023-06-14 15:28:06.972412 - 484 granules remaining
+Time: 2023-06-14 15:29:07.032398 - 427 granules remaining
+Time: 2023-06-14 15:30:07.092402 - 375 granules remaining
+Time: 2023-06-14 15:31:07.152401 - 315 granules remaining
+Time: 2023-06-14 15:32:07.212409 - 264 granules remaining
+Time: 2023-06-14 15:33:07.272414 - 214 granules remaining
+Time: 2023-06-14 15:34:07.332415 - 156 granules remaining
+Time: 2023-06-14 15:35:07.392405 - 101 granules remaining
+Time: 2023-06-14 15:36:07.452411 - 39 granules remaining
+2023-06-14 15:37:07.486711
+2015364
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/30/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1696 objects with key filter %/2015/12/30/%S2A%
+2023-06-14 15:38:09.830663
+Time: 2023-06-14 15:38:09.898416 - 1696 granules remaining
+Time: 2023-06-14 15:39:09.957433 - 1656 granules remaining
+Time: 2023-06-14 15:40:10.016410 - 1616 granules remaining
+Time: 2023-06-14 15:41:10.076405 - 1538 granules remaining
+Time: 2023-06-14 15:42:10.136405 - 1496 granules remaining
+Time: 2023-06-14 15:43:10.196411 - 1427 granules remaining
+Time: 2023-06-14 15:44:10.256409 - 1376 granules remaining
+Time: 2023-06-14 15:45:10.320400 - 1330 granules remaining
+Time: 2023-06-14 15:46:10.380425 - 1262 granules remaining
+Time: 2023-06-14 15:47:10.440415 - 1216 granules remaining
+Time: 2023-06-14 15:48:10.504405 - 1170 granules remaining
+Time: 2023-06-14 15:49:10.564443 - 1104 granules remaining
+Time: 2023-06-14 15:50:10.624426 - 1056 granules remaining
+Time: 2023-06-14 15:51:10.684410 - 1009 granules remaining
+Time: 2023-06-14 15:52:10.744404 - 940 granules remaining
+Time: 2023-06-14 15:53:10.805239 - 896 granules remaining
+Time: 2023-06-14 15:54:10.864408 - 842 granules remaining
+Time: 2023-06-14 15:55:10.924412 - 777 granules remaining
+Time: 2023-06-14 15:56:10.984408 - 735 granules remaining
+Time: 2023-06-14 15:57:11.044421 - 684 granules remaining
+Time: 2023-06-14 15:58:11.104421 - 620 granules remaining
+Time: 2023-06-14 15:59:11.165293 - 575 granules remaining
+Time: 2023-06-14 16:00:11.224405 - 519 granules remaining
+Time: 2023-06-14 16:01:11.284406 - 460 granules remaining
+Time: 2023-06-14 16:02:11.344409 - 414 granules remaining
+Time: 2023-06-14 16:03:11.404402 - 350 granules remaining
+Time: 2023-06-14 16:04:11.464408 - 297 granules remaining
+Time: 2023-06-14 16:05:11.524452 - 241 granules remaining
+Time: 2023-06-14 16:06:11.584405 - 180 granules remaining
+Time: 2023-06-14 16:07:11.644405 - 136 granules remaining
+Time: 2023-06-14 16:08:11.704409 - 81 granules remaining
+Time: 2023-06-14 16:09:11.764415 - 17 granules remaining
+2023-06-14 16:10:11.808407
+2015363
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/29/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1714 objects with key filter %/2015/12/29/%S2A%
+2023-06-14 16:11:14.178690
+Time: 2023-06-14 16:11:14.250133 - 1714 granules remaining
+Time: 2023-06-14 16:12:14.308418 - 1674 granules remaining
+Time: 2023-06-14 16:13:14.368401 - 1634 granules remaining
+Time: 2023-06-14 16:14:14.428404 - 1555 granules remaining
+Time: 2023-06-14 16:15:14.488403 - 1514 granules remaining
+Time: 2023-06-14 16:16:14.548423 - 1453 granules remaining
+Time: 2023-06-14 16:17:14.608410 - 1395 granules remaining
+Time: 2023-06-14 16:18:14.668399 - 1354 granules remaining
+Time: 2023-06-14 16:19:14.728401 - 1294 granules remaining
+Time: 2023-06-14 16:20:14.788421 - 1237 granules remaining
+Time: 2023-06-14 16:21:14.848406 - 1192 granules remaining
+Time: 2023-06-14 16:22:14.908409 - 1138 granules remaining
+Time: 2023-06-14 16:23:14.968407 - 1076 granules remaining
+Time: 2023-06-14 16:24:15.028934 - 1033 granules remaining
+Time: 2023-06-14 16:25:15.088412 - 977 granules remaining
+Time: 2023-06-14 16:26:15.148412 - 922 granules remaining
+Time: 2023-06-14 16:27:15.208405 - 874 granules remaining
+Time: 2023-06-14 16:28:15.268408 - 820 granules remaining
+Time: 2023-06-14 16:29:15.328426 - 764 granules remaining
+Time: 2023-06-14 16:30:15.388411 - 716 granules remaining
+Time: 2023-06-14 16:31:15.448424 - 660 granules remaining
+Time: 2023-06-14 16:32:15.508411 - 611 granules remaining
+Time: 2023-06-14 16:33:15.568413 - 556 granules remaining
+Time: 2023-06-14 16:34:15.628407 - 500 granules remaining
+Time: 2023-06-14 16:35:15.689378 - 452 granules remaining
+Time: 2023-06-14 16:36:15.748410 - 395 granules remaining
+Time: 2023-06-14 16:37:15.808427 - 340 granules remaining
+Time: 2023-06-14 16:38:15.868956 - 293 granules remaining
+Time: 2023-06-14 16:39:15.928405 - 232 granules remaining
+Time: 2023-06-14 16:40:15.988407 - 179 granules remaining
+Time: 2023-06-14 16:41:16.048416 - 130 granules remaining
+Time: 2023-06-14 16:42:16.108406 - 64 granules remaining
+2023-06-14 16:43:16.168522
+2015362
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/28/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1886 objects with key filter %/2015/12/28/%S2A%
+2023-06-14 16:44:18.681493
+Time: 2023-06-14 16:44:18.750575 - 1886 granules remaining
+Time: 2023-06-14 16:45:18.810538 - 1846 granules remaining
+Time: 2023-06-14 16:46:18.870457 - 1804 granules remaining
+Time: 2023-06-14 16:47:18.928406 - 1727 granules remaining
+Time: 2023-06-14 16:48:18.988406 - 1686 granules remaining
+Time: 2023-06-14 16:49:19.048409 - 1631 granules remaining
+Time: 2023-06-14 16:50:19.108402 - 1571 granules remaining
+Time: 2023-06-14 16:51:19.169096 - 1526 granules remaining
+Time: 2023-06-14 16:52:19.228402 - 1457 granules remaining
+Time: 2023-06-14 16:53:19.288405 - 1406 granules remaining
+Time: 2023-06-14 16:54:19.348413 - 1365 granules remaining
+Time: 2023-06-14 16:55:19.408405 - 1305 granules remaining
+Time: 2023-06-14 16:56:19.468403 - 1249 granules remaining
+Time: 2023-06-14 16:57:19.528406 - 1203 granules remaining
+Time: 2023-06-14 16:58:19.588403 - 1144 granules remaining
+Time: 2023-06-14 16:59:19.648413 - 1087 granules remaining
+Time: 2023-06-14 17:00:19.708408 - 1039 granules remaining
+Time: 2023-06-14 17:01:19.768405 - 979 granules remaining
+Time: 2023-06-14 17:02:19.828404 - 927 granules remaining
+Time: 2023-06-14 17:03:19.888407 - 880 granules remaining
+Time: 2023-06-14 17:04:19.948406 - 825 granules remaining
+Time: 2023-06-14 17:05:20.008422 - 768 granules remaining
+Time: 2023-06-14 17:06:20.068421 - 718 granules remaining
+Time: 2023-06-14 17:07:20.128407 - 667 granules remaining
+Time: 2023-06-14 17:08:20.188404 - 612 granules remaining
+Time: 2023-06-14 17:09:20.248404 - 560 granules remaining
+Time: 2023-06-14 17:10:20.308407 - 510 granules remaining
+Time: 2023-06-14 17:11:20.368403 - 453 granules remaining
+Time: 2023-06-14 17:12:20.428409 - 402 granules remaining
+Time: 2023-06-14 17:13:20.488398 - 352 granules remaining
+Time: 2023-06-14 17:14:20.548413 - 291 granules remaining
+Time: 2023-06-14 17:15:20.608414 - 234 granules remaining
+Time: 2023-06-14 17:16:20.668409 - 183 granules remaining
+Time: 2023-06-14 17:17:20.728398 - 125 granules remaining
+Time: 2023-06-14 17:18:20.788407 - 72 granules remaining
+Time: 2023-06-14 17:19:20.848507 - 1 granules remaining
+2023-06-14 17:20:20.853465
+2015361
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/27/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1787 objects with key filter %/2015/12/27/%S2A%
+2023-06-14 17:21:23.352547
+Time: 2023-06-14 17:21:23.422556 - 1787 granules remaining
+Time: 2023-06-14 17:22:23.480412 - 1747 granules remaining
+Time: 2023-06-14 17:23:23.540410 - 1701 granules remaining
+Time: 2023-06-14 17:24:23.600399 - 1627 granules remaining
+Time: 2023-06-14 17:25:23.660438 - 1587 granules remaining
+Time: 2023-06-14 17:26:23.720409 - 1519 granules remaining
+Time: 2023-06-14 17:27:23.780406 - 1467 granules remaining
+Time: 2023-06-14 17:28:23.840402 - 1427 granules remaining
+Time: 2023-06-14 17:29:23.900412 - 1362 granules remaining
+Time: 2023-06-14 17:30:23.960407 - 1307 granules remaining
+Time: 2023-06-14 17:31:24.020409 - 1266 granules remaining
+Time: 2023-06-14 17:32:24.080408 - 1203 granules remaining
+Time: 2023-06-14 17:33:24.140413 - 1147 granules remaining
+Time: 2023-06-14 17:34:24.200406 - 1099 granules remaining
+Time: 2023-06-14 17:35:24.260406 - 1040 granules remaining
+Time: 2023-06-14 17:36:24.320413 - 987 granules remaining
+Time: 2023-06-14 17:37:24.380402 - 935 granules remaining
+Time: 2023-06-14 17:38:24.440408 - 872 granules remaining
+Time: 2023-06-14 17:39:24.500408 - 826 granules remaining
+Time: 2023-06-14 17:40:24.560409 - 779 granules remaining
+Time: 2023-06-14 17:41:24.620404 - 710 granules remaining
+Time: 2023-06-14 17:42:24.680419 - 664 granules remaining
+Time: 2023-06-14 17:43:24.740404 - 616 granules remaining
+Time: 2023-06-14 17:44:24.800407 - 550 granules remaining
+Time: 2023-06-14 17:45:24.860408 - 505 granules remaining
+Time: 2023-06-14 17:46:24.920409 - 448 granules remaining
+Time: 2023-06-14 17:47:24.980409 - 388 granules remaining
+Time: 2023-06-14 17:48:25.040401 - 343 granules remaining
+Time: 2023-06-14 17:49:25.100421 - 283 granules remaining
+Time: 2023-06-14 17:50:25.160420 - 226 granules remaining
+Time: 2023-06-14 17:51:25.220409 - 184 granules remaining
+Time: 2023-06-14 17:52:25.280403 - 124 granules remaining
+Time: 2023-06-14 17:53:25.340412 - 66 granules remaining
+2023-06-14 17:54:25.366382
+2015360
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/26/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1683 objects with key filter %/2015/12/26/%S2A%
+2023-06-14 17:55:27.623646
+Time: 2023-06-14 17:55:27.689595 - 1683 granules remaining
+Time: 2023-06-14 17:56:27.748436 - 1643 granules remaining
+Time: 2023-06-14 17:57:27.808400 - 1603 granules remaining
+Time: 2023-06-14 17:58:27.868434 - 1523 granules remaining
+Time: 2023-06-14 17:59:27.928407 - 1483 granules remaining
+Time: 2023-06-14 18:00:27.988407 - 1421 granules remaining
+Time: 2023-06-14 18:01:28.048415 - 1363 granules remaining
+Time: 2023-06-14 18:02:28.112448 - 1323 granules remaining
+Time: 2023-06-14 18:03:28.172679 - 1261 granules remaining
+Time: 2023-06-14 18:04:28.232404 - 1204 granules remaining
+Time: 2023-06-14 18:05:28.292452 - 1163 granules remaining
+Time: 2023-06-14 18:06:28.352446 - 1098 granules remaining
+Time: 2023-06-14 18:07:28.412414 - 1043 granules remaining
+Time: 2023-06-14 18:08:28.472412 - 1002 granules remaining
+Time: 2023-06-14 18:09:28.532409 - 945 granules remaining
+Time: 2023-06-14 18:10:28.592400 - 884 granules remaining
+Time: 2023-06-14 18:11:28.652412 - 839 granules remaining
+Time: 2023-06-14 18:12:28.712404 - 784 granules remaining
+Time: 2023-06-14 18:13:28.772402 - 726 granules remaining
+Time: 2023-06-14 18:14:28.832406 - 682 granules remaining
+Time: 2023-06-14 18:15:28.892544 - 626 granules remaining
+Time: 2023-06-14 18:16:28.953427 - 566 granules remaining
+Time: 2023-06-14 18:17:29.012429 - 522 granules remaining
+Time: 2023-06-14 18:18:29.072725 - 475 granules remaining
+Time: 2023-06-14 18:19:29.132404 - 411 granules remaining
+Time: 2023-06-14 18:20:29.192412 - 362 granules remaining
+Time: 2023-06-14 18:21:29.252404 - 313 granules remaining
+Time: 2023-06-14 18:22:29.312411 - 250 granules remaining
+Time: 2023-06-14 18:23:29.372404 - 201 granules remaining
+Time: 2023-06-14 18:24:29.432539 - 147 granules remaining
+Time: 2023-06-14 18:25:29.492544 - 90 granules remaining
+Time: 2023-06-14 18:26:29.552408 - 39 granules remaining
+2023-06-14 18:27:29.612525
+2015359
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/25/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1693 objects with key filter %/2015/12/25/%S2A%
+2023-06-14 18:28:32.022674
+Time: 2023-06-14 18:28:32.094809 - 1693 granules remaining
+Time: 2023-06-14 18:29:32.153251 - 1653 granules remaining
+Time: 2023-06-14 18:30:32.212406 - 1613 granules remaining
+Time: 2023-06-14 18:31:32.272427 - 1534 granules remaining
+Time: 2023-06-14 18:32:32.332425 - 1493 granules remaining
+Time: 2023-06-14 18:33:32.392429 - 1439 granules remaining
+Time: 2023-06-14 18:34:32.452416 - 1374 granules remaining
+Time: 2023-06-14 18:35:32.512403 - 1333 granules remaining
+Time: 2023-06-14 18:36:32.572432 - 1271 granules remaining
+Time: 2023-06-14 18:37:32.632408 - 1215 granules remaining
+Time: 2023-06-14 18:38:32.692406 - 1170 granules remaining
+Time: 2023-06-14 18:39:32.752410 - 1115 granules remaining
+Time: 2023-06-14 18:40:32.812407 - 1054 granules remaining
+Time: 2023-06-14 18:41:32.872406 - 1012 granules remaining
+Time: 2023-06-14 18:42:32.933420 - 957 granules remaining
+Time: 2023-06-14 18:43:32.992411 - 895 granules remaining
+Time: 2023-06-14 18:44:33.052401 - 849 granules remaining
+Time: 2023-06-14 18:45:33.113641 - 788 granules remaining
+Time: 2023-06-14 18:46:33.173504 - 735 granules remaining
+Time: 2023-06-14 18:47:33.233490 - 691 granules remaining
+Time: 2023-06-14 18:48:33.292405 - 629 granules remaining
+Time: 2023-06-14 18:49:33.352407 - 574 granules remaining
+Time: 2023-06-14 18:50:33.412407 - 532 granules remaining
+Time: 2023-06-14 18:51:33.472408 - 464 granules remaining
+Time: 2023-06-14 18:52:33.532411 - 414 granules remaining
+Time: 2023-06-14 18:53:33.592404 - 360 granules remaining
+Time: 2023-06-14 18:54:33.653018 - 302 granules remaining
+Time: 2023-06-14 18:55:33.712409 - 254 granules remaining
+Time: 2023-06-14 18:56:33.773637 - 196 granules remaining
+Time: 2023-06-14 18:57:33.832425 - 139 granules remaining
+Time: 2023-06-14 18:58:33.895114 - 93 granules remaining
+Time: 2023-06-14 18:59:33.955229 - 29 granules remaining
+2023-06-14 19:00:34.015342
+2015358
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/24/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1669 objects with key filter %/2015/12/24/%S2A%
+2023-06-14 19:01:36.468097
+Time: 2023-06-14 19:01:36.541726 - 1669 granules remaining
+Time: 2023-06-14 19:02:36.600424 - 1629 granules remaining
+Time: 2023-06-14 19:03:36.660403 - 1585 granules remaining
+Time: 2023-06-14 19:04:36.720403 - 1509 granules remaining
+Time: 2023-06-14 19:05:36.780413 - 1469 granules remaining
+Time: 2023-06-14 19:06:36.840548 - 1398 granules remaining
+Time: 2023-06-14 19:07:36.900405 - 1349 granules remaining
+Time: 2023-06-14 19:08:36.960412 - 1294 granules remaining
+Time: 2023-06-14 19:09:37.020400 - 1232 granules remaining
+Time: 2023-06-14 19:10:37.080419 - 1189 granules remaining
+Time: 2023-06-14 19:11:37.140414 - 1129 granules remaining
+Time: 2023-06-14 19:12:37.200400 - 1071 granules remaining
+Time: 2023-06-14 19:13:37.260409 - 1029 granules remaining
+Time: 2023-06-14 19:14:37.320438 - 970 granules remaining
+Time: 2023-06-14 19:15:37.380424 - 910 granules remaining
+Time: 2023-06-14 19:16:37.440407 - 868 granules remaining
+Time: 2023-06-14 19:17:37.501770 - 812 granules remaining
+Time: 2023-06-14 19:18:37.560405 - 751 granules remaining
+Time: 2023-06-14 19:19:37.620403 - 708 granules remaining
+Time: 2023-06-14 19:20:37.681410 - 652 granules remaining
+Time: 2023-06-14 19:21:37.740499 - 591 granules remaining
+Time: 2023-06-14 19:22:37.800408 - 548 granules remaining
+Time: 2023-06-14 19:23:37.860402 - 486 granules remaining
+Time: 2023-06-14 19:24:37.923347 - 431 granules remaining
+Time: 2023-06-14 19:25:37.980402 - 389 granules remaining
+Time: 2023-06-14 19:26:38.040412 - 333 granules remaining
+Time: 2023-06-14 19:27:38.100411 - 271 granules remaining
+Time: 2023-06-14 19:28:38.160406 - 221 granules remaining
+Time: 2023-06-14 19:29:38.220413 - 156 granules remaining
+Time: 2023-06-14 19:30:38.280401 - 110 granules remaining
+Time: 2023-06-14 19:31:38.340412 - 54 granules remaining
+2023-06-14 19:32:38.400522
+2015357
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-12-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-12-01-00' AND key like '%/2015/12/23/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1792 objects with key filter %/2015/12/23/%S2A%
+2023-06-14 19:33:40.752280
+Time: 2023-06-14 19:33:40.824908 - 1792 granules remaining
+Time: 2023-06-14 19:34:40.884406 - 1752 granules remaining
+Time: 2023-06-14 19:35:40.944416 - 1699 granules remaining
+Time: 2023-06-14 19:36:41.004414 - 1632 granules remaining
+Time: 2023-06-14 19:37:41.064440 - 1589 granules remaining
+Time: 2023-06-14 19:38:41.124409 - 1516 granules remaining
+Time: 2023-06-14 19:39:41.184407 - 1472 granules remaining
+Time: 2023-06-14 19:40:41.244408 - 1427 granules remaining
+Time: 2023-06-14 19:41:41.304399 - 1360 granules remaining
+Time: 2023-06-14 19:42:41.364421 - 1312 granules remaining
+Time: 2023-06-14 19:43:41.424406 - 1264 granules remaining
+Time: 2023-06-14 19:44:41.484430 - 1195 granules remaining
+Time: 2023-06-14 19:45:41.544437 - 1152 granules remaining
+Time: 2023-06-14 19:46:41.604406 - 1100 granules remaining
+Time: 2023-06-14 19:47:41.664405 - 1036 granules remaining
+Time: 2023-06-14 19:48:41.724411 - 992 granules remaining
+Time: 2023-06-14 19:49:41.786568 - 935 granules remaining
+Time: 2023-06-14 19:50:41.844405 - 874 granules remaining
+Time: 2023-06-14 19:51:41.904402 - 832 granules remaining
+Time: 2023-06-14 19:52:41.964410 - 777 granules remaining
+Time: 2023-06-14 19:53:42.024402 - 714 granules remaining
+Time: 2023-06-14 19:54:42.084494 - 670 granules remaining
+Time: 2023-06-14 19:55:42.144404 - 615 granules remaining
+Time: 2023-06-14 19:56:42.204403 - 559 granules remaining
+Time: 2023-06-14 19:57:42.264461 - 512 granules remaining
+Time: 2023-06-14 19:58:42.324430 - 461 granules remaining
+Time: 2023-06-14 19:59:42.384403 - 396 granules remaining
+Time: 2023-06-14 20:00:42.446748 - 350 granules remaining
+Time: 2023-06-14 20:01:42.504417 - 289 granules remaining
+Time: 2023-06-14 20:02:42.564431 - 233 granules remaining
+Time: 2023-06-14 20:03:42.624421 - 192 granules remaining
+Time: 2023-06-14 20:04:42.684408 - 140 granules remaining
+Time: 2023-06-14 20:05:42.744420 - 75 granules remaining
+Time: 2023-06-14 20:06:42.806172 - 23 granules remaining
+2023-06-14 20:07:42.866276
+2015356
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/22/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1699 objects with key filter %/2015/12/22/%S2A%
+2023-06-14 20:08:45.089164
+Time: 2023-06-14 20:08:45.162386 - 1699 granules remaining
+Time: 2023-06-14 20:09:45.220931 - 1659 granules remaining
+Time: 2023-06-14 20:10:45.280434 - 1619 granules remaining
+Time: 2023-06-14 20:11:45.340404 - 1541 granules remaining
+Time: 2023-06-14 20:12:45.400401 - 1499 granules remaining
+Time: 2023-06-14 20:13:45.460411 - 1441 granules remaining
+Time: 2023-06-14 20:14:45.520405 - 1383 granules remaining
+Time: 2023-06-14 20:15:45.580409 - 1339 granules remaining
+Time: 2023-06-14 20:16:45.640410 - 1286 granules remaining
+Time: 2023-06-14 20:17:45.700410 - 1223 granules remaining
+Time: 2023-06-14 20:18:45.760413 - 1179 granules remaining
+Time: 2023-06-14 20:19:45.820406 - 1122 granules remaining
+Time: 2023-06-14 20:20:45.880406 - 1063 granules remaining
+Time: 2023-06-14 20:21:45.940414 - 1018 granules remaining
+Time: 2023-06-14 20:22:46.000411 - 968 granules remaining
+Time: 2023-06-14 20:23:46.060403 - 902 granules remaining
+Time: 2023-06-14 20:24:46.120407 - 858 granules remaining
+Time: 2023-06-14 20:25:46.180417 - 807 granules remaining
+Time: 2023-06-14 20:26:46.240410 - 745 granules remaining
+Time: 2023-06-14 20:27:46.300408 - 696 granules remaining
+Time: 2023-06-14 20:28:46.360398 - 646 granules remaining
+Time: 2023-06-14 20:29:46.420406 - 584 granules remaining
+Time: 2023-06-14 20:30:46.481335 - 539 granules remaining
+Time: 2023-06-14 20:31:46.540403 - 493 granules remaining
+Time: 2023-06-14 20:32:46.600405 - 428 granules remaining
+Time: 2023-06-14 20:33:46.660402 - 375 granules remaining
+Time: 2023-06-14 20:34:46.720421 - 316 granules remaining
+Time: 2023-06-14 20:35:46.780408 - 260 granules remaining
+Time: 2023-06-14 20:36:46.840401 - 212 granules remaining
+Time: 2023-06-14 20:37:46.900407 - 153 granules remaining
+Time: 2023-06-14 20:38:46.960396 - 100 granules remaining
+Time: 2023-06-14 20:39:47.020483 - 42 granules remaining
+2023-06-14 20:40:47.080602
+2015355
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/21/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1836 objects with key filter %/2015/12/21/%S2A%
+2023-06-14 20:41:49.524963
+Time: 2023-06-14 20:41:49.601593 - 1836 granules remaining
+Time: 2023-06-14 20:42:49.664413 - 1796 granules remaining
+Time: 2023-06-14 20:43:49.724422 - 1738 granules remaining
+Time: 2023-06-14 20:44:49.784407 - 1676 granules remaining
+Time: 2023-06-14 20:45:49.844404 - 1636 granules remaining
+Time: 2023-06-14 20:46:49.904457 - 1558 granules remaining
+Time: 2023-06-14 20:47:49.964409 - 1516 granules remaining
+Time: 2023-06-14 20:48:50.024414 - 1451 granules remaining
+Time: 2023-06-14 20:49:50.085504 - 1396 granules remaining
+Time: 2023-06-14 20:50:50.146381 - 1356 granules remaining
+Time: 2023-06-14 20:51:50.207705 - 1291 granules remaining
+Time: 2023-06-14 20:52:50.267821 - 1237 granules remaining
+Time: 2023-06-14 20:53:50.325803 - 1196 granules remaining
+Time: 2023-06-14 20:54:50.384399 - 1134 granules remaining
+Time: 2023-06-14 20:55:50.444407 - 1077 granules remaining
+Time: 2023-06-14 20:56:50.506049 - 1032 granules remaining
+Time: 2023-06-14 20:57:50.564994 - 975 granules remaining
+Time: 2023-06-14 20:58:50.625454 - 917 granules remaining
+Time: 2023-06-14 20:59:50.684409 - 871 granules remaining
+Time: 2023-06-14 21:00:50.744418 - 814 granules remaining
+Time: 2023-06-14 21:01:50.804409 - 758 granules remaining
+Time: 2023-06-14 21:02:50.864409 - 711 granules remaining
+Time: 2023-06-14 21:03:50.924409 - 644 granules remaining
+Time: 2023-06-14 21:04:50.984401 - 593 granules remaining
+Time: 2023-06-14 21:05:51.044403 - 549 granules remaining
+Time: 2023-06-14 21:06:51.107497 - 488 granules remaining
+Time: 2023-06-14 21:07:51.164428 - 433 granules remaining
+Time: 2023-06-14 21:08:51.224418 - 381 granules remaining
+Time: 2023-06-14 21:09:51.284409 - 321 granules remaining
+Time: 2023-06-14 21:10:51.344410 - 273 granules remaining
+Time: 2023-06-14 21:11:51.404407 - 218 granules remaining
+Time: 2023-06-14 21:12:51.464417 - 159 granules remaining
+Time: 2023-06-14 21:13:51.524408 - 111 granules remaining
+Time: 2023-06-14 21:14:51.584594 - 44 granules remaining
+2023-06-14 21:15:51.644697
+2015354
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/20/%S2A%''. Waiting 15 seconds
+Successfully retrieved 266 objects with key filter %/2015/12/20/%S2A%
+2023-06-14 21:16:54.043439
+Time: 2023-06-14 21:16:54.109238 - 266 granules remaining
+Time: 2023-06-14 21:17:54.168406 - 226 granules remaining
+Time: 2023-06-14 21:18:54.231542 - 177 granules remaining
+Time: 2023-06-14 21:19:54.291662 - 106 granules remaining
+Time: 2023-06-14 21:20:54.348400 - 65 granules remaining
+2023-06-14 21:21:54.408517
+2015353
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/19/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1466 objects with key filter %/2015/12/19/%S2A%
+2023-06-14 21:22:56.779196
+Time: 2023-06-14 21:22:56.845750 - 1466 granules remaining
+Time: 2023-06-14 21:23:56.912407 - 1426 granules remaining
+Time: 2023-06-14 21:24:56.972416 - 1386 granules remaining
+Time: 2023-06-14 21:25:57.032407 - 1309 granules remaining
+Time: 2023-06-14 21:26:57.092430 - 1266 granules remaining
+Time: 2023-06-14 21:27:57.152420 - 1220 granules remaining
+Time: 2023-06-14 21:28:57.212408 - 1152 granules remaining
+Time: 2023-06-14 21:29:57.272431 - 1106 granules remaining
+Time: 2023-06-14 21:30:57.332415 - 1058 granules remaining
+Time: 2023-06-14 21:31:57.392404 - 990 granules remaining
+Time: 2023-06-14 21:32:57.452409 - 946 granules remaining
+Time: 2023-06-14 21:33:57.512410 - 895 granules remaining
+Time: 2023-06-14 21:34:57.572403 - 832 granules remaining
+Time: 2023-06-14 21:35:57.632422 - 786 granules remaining
+Time: 2023-06-14 21:36:57.692421 - 733 granules remaining
+Time: 2023-06-14 21:37:57.755795 - 673 granules remaining
+Time: 2023-06-14 21:38:57.812406 - 626 granules remaining
+Time: 2023-06-14 21:39:57.872407 - 573 granules remaining
+Time: 2023-06-14 21:40:57.932398 - 518 granules remaining
+Time: 2023-06-14 21:41:57.992407 - 466 granules remaining
+Time: 2023-06-14 21:42:58.052401 - 416 granules remaining
+Time: 2023-06-14 21:43:58.112405 - 365 granules remaining
+Time: 2023-06-14 21:44:58.172409 - 303 granules remaining
+Time: 2023-06-14 21:45:58.232411 - 256 granules remaining
+Time: 2023-06-14 21:46:58.292408 - 205 granules remaining
+Time: 2023-06-14 21:47:58.352711 - 149 granules remaining
+Time: 2023-06-14 21:48:58.412407 - 95 granules remaining
+Time: 2023-06-14 21:49:58.472421 - 37 granules remaining
+2023-06-14 21:50:58.474456
+2015352
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/18/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1755 objects with key filter %/2015/12/18/%S2A%
+2023-06-14 21:52:00.864960
+Time: 2023-06-14 21:52:00.936911 - 1755 granules remaining
+Time: 2023-06-14 21:53:00.996409 - 1715 granules remaining
+Time: 2023-06-14 21:54:01.056415 - 1675 granules remaining
+Time: 2023-06-14 21:55:01.116410 - 1595 granules remaining
+Time: 2023-06-14 21:56:01.176407 - 1555 granules remaining
+Time: 2023-06-14 21:57:01.236404 - 1479 granules remaining
+Time: 2023-06-14 21:58:01.296404 - 1435 granules remaining
+Time: 2023-06-14 21:59:01.356527 - 1388 granules remaining
+Time: 2023-06-14 22:00:01.416408 - 1322 granules remaining
+Time: 2023-06-14 22:01:01.476403 - 1275 granules remaining
+Time: 2023-06-14 22:02:01.536406 - 1221 granules remaining
+Time: 2023-06-14 22:03:01.596398 - 1161 granules remaining
+Time: 2023-06-14 22:04:01.656409 - 1117 granules remaining
+Time: 2023-06-14 22:05:01.716408 - 1061 granules remaining
+Time: 2023-06-14 22:06:01.776404 - 1001 granules remaining
+Time: 2023-06-14 22:07:01.837642 - 955 granules remaining
+Time: 2023-06-14 22:08:01.896408 - 903 granules remaining
+Time: 2023-06-14 22:09:01.956409 - 844 granules remaining
+Time: 2023-06-14 22:10:02.018217 - 798 granules remaining
+Time: 2023-06-14 22:11:02.076405 - 748 granules remaining
+Time: 2023-06-14 22:12:02.136406 - 687 granules remaining
+Time: 2023-06-14 22:13:02.196409 - 638 granules remaining
+Time: 2023-06-14 22:14:02.256412 - 591 granules remaining
+Time: 2023-06-14 22:15:02.316409 - 531 granules remaining
+Time: 2023-06-14 22:16:02.376411 - 478 granules remaining
+Time: 2023-06-14 22:17:02.436404 - 427 granules remaining
+Time: 2023-06-14 22:18:02.497866 - 368 granules remaining
+Time: 2023-06-14 22:19:02.558118 - 317 granules remaining
+Time: 2023-06-14 22:20:02.616403 - 269 granules remaining
+Time: 2023-06-14 22:21:02.678307 - 208 granules remaining
+Time: 2023-06-14 22:22:02.736651 - 156 granules remaining
+Time: 2023-06-14 22:23:02.796404 - 99 granules remaining
+Time: 2023-06-14 22:24:02.857390 - 39 granules remaining
+2023-06-14 22:25:02.878033
+2015351
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/17/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1711 objects with key filter %/2015/12/17/%S2A%
+2023-06-14 22:26:05.505496
+Time: 2023-06-14 22:26:05.573037 - 1711 granules remaining
+Time: 2023-06-14 22:27:05.632410 - 1671 granules remaining
+Time: 2023-06-14 22:28:05.694881 - 1614 granules remaining
+Time: 2023-06-14 22:29:05.754713 - 1551 granules remaining
+Time: 2023-06-14 22:30:05.813512 - 1511 granules remaining
+Time: 2023-06-14 22:31:05.872411 - 1450 granules remaining
+Time: 2023-06-14 22:32:05.932406 - 1391 granules remaining
+Time: 2023-06-14 22:33:05.992398 - 1343 granules remaining
+Time: 2023-06-14 22:34:06.052406 - 1278 granules remaining
+Time: 2023-06-14 22:35:06.112410 - 1231 granules remaining
+Time: 2023-06-14 22:36:06.172410 - 1190 granules remaining
+Time: 2023-06-14 22:37:06.232406 - 1121 granules remaining
+Time: 2023-06-14 22:38:06.292406 - 1071 granules remaining
+Time: 2023-06-14 22:39:06.352565 - 1024 granules remaining
+Time: 2023-06-14 22:40:06.412408 - 961 granules remaining
+Time: 2023-06-14 22:41:06.472408 - 911 granules remaining
+Time: 2023-06-14 22:42:06.532401 - 860 granules remaining
+Time: 2023-06-14 22:43:06.592450 - 800 granules remaining
+Time: 2023-06-14 22:44:06.652404 - 749 granules remaining
+Time: 2023-06-14 22:45:06.716201 - 699 granules remaining
+Time: 2023-06-14 22:46:06.772409 - 638 granules remaining
+Time: 2023-06-14 22:47:06.832408 - 591 granules remaining
+Time: 2023-06-14 22:48:06.894372 - 540 granules remaining
+Time: 2023-06-14 22:49:06.952401 - 483 granules remaining
+Time: 2023-06-14 22:50:07.012440 - 434 granules remaining
+Time: 2023-06-14 22:51:07.072409 - 378 granules remaining
+Time: 2023-06-14 22:52:07.132403 - 319 granules remaining
+Time: 2023-06-14 22:53:07.192407 - 270 granules remaining
+Time: 2023-06-14 22:54:07.252400 - 210 granules remaining
+Time: 2023-06-14 22:55:07.312403 - 156 granules remaining
+Time: 2023-06-14 22:56:07.372411 - 101 granules remaining
+Time: 2023-06-14 22:57:07.432410 - 44 granules remaining
+2023-06-14 22:58:07.492523
+2015350
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/16/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1511 objects with key filter %/2015/12/16/%S2A%
+2023-06-14 22:59:10.142640
+Time: 2023-06-14 22:59:10.216242 - 1511 granules remaining
+Time: 2023-06-14 23:00:10.276410 - 1471 granules remaining
+Time: 2023-06-14 23:01:10.338814 - 1416 granules remaining
+Time: 2023-06-14 23:02:10.398791 - 1351 granules remaining
+Time: 2023-06-14 23:03:10.456408 - 1311 granules remaining
+Time: 2023-06-14 23:04:10.516402 - 1237 granules remaining
+Time: 2023-06-14 23:05:10.576407 - 1191 granules remaining
+Time: 2023-06-14 23:06:10.636833 - 1151 granules remaining
+Time: 2023-06-14 23:07:10.696406 - 1082 granules remaining
+Time: 2023-06-14 23:08:10.756406 - 1031 granules remaining
+Time: 2023-06-14 23:09:10.816404 - 983 granules remaining
+Time: 2023-06-14 23:10:10.876407 - 925 granules remaining
+Time: 2023-06-14 23:11:10.936408 - 871 granules remaining
+Time: 2023-06-14 23:12:10.996407 - 824 granules remaining
+Time: 2023-06-14 23:13:11.056406 - 767 granules remaining
+Time: 2023-06-14 23:14:11.116411 - 713 granules remaining
+Time: 2023-06-14 23:15:11.176411 - 667 granules remaining
+Time: 2023-06-14 23:16:11.236407 - 610 granules remaining
+Time: 2023-06-14 23:17:11.296412 - 554 granules remaining
+Time: 2023-06-14 23:18:11.356402 - 505 granules remaining
+Time: 2023-06-14 23:19:11.416400 - 445 granules remaining
+Time: 2023-06-14 23:20:11.478344 - 395 granules remaining
+Time: 2023-06-14 23:21:11.537538 - 338 granules remaining
+Time: 2023-06-14 23:22:11.596400 - 285 granules remaining
+Time: 2023-06-14 23:23:11.656409 - 237 granules remaining
+Time: 2023-06-14 23:24:11.716411 - 183 granules remaining
+Time: 2023-06-14 23:25:11.776406 - 120 granules remaining
+Time: 2023-06-14 23:26:11.836402 - 65 granules remaining
+2023-06-14 23:27:11.896507
+2015349
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/15/%S2A%''. Waiting 15 seconds
+Successfully retrieved 98 objects with key filter %/2015/12/15/%S2A%
+2023-06-14 23:28:14.174570
+Time: 2023-06-14 23:28:14.249056 - 98 granules remaining
+Time: 2023-06-14 23:29:14.308984 - 58 granules remaining
+2023-06-14 23:30:14.350298
+2015348
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/14/%S2A%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2015/12/14/%S2A%
+2023-06-14 23:31:16.623053
+2023-06-14 23:31:16.690870
+2015347
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/13/%S2A%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2015/12/13/%S2A%
+2023-06-14 23:32:18.930932
+2023-06-14 23:32:19.002554
+2015346
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/12/%S2A%''. Waiting 15 seconds
+Successfully retrieved 0 objects with key filter %/2015/12/12/%S2A%
+2023-06-14 23:33:21.384126
+2023-06-14 23:33:21.460752
+2015345
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/11/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1771 objects with key filter %/2015/12/11/%S2A%
+2023-06-14 23:34:23.796905
+Time: 2023-06-14 23:34:23.867168 - 1771 granules remaining
+Time: 2023-06-14 23:35:23.927498 - 1731 granules remaining
+Time: 2023-06-14 23:36:23.984484 - 1690 granules remaining
+Time: 2023-06-14 23:37:24.044407 - 1611 granules remaining
+Time: 2023-06-14 23:38:24.104414 - 1571 granules remaining
+Time: 2023-06-14 23:39:24.164408 - 1508 granules remaining
+Time: 2023-06-14 23:40:24.226855 - 1451 granules remaining
+Time: 2023-06-14 23:41:24.284415 - 1410 granules remaining
+Time: 2023-06-14 23:42:24.344412 - 1342 granules remaining
+Time: 2023-06-14 23:43:24.404407 - 1291 granules remaining
+Time: 2023-06-14 23:44:24.464404 - 1251 granules remaining
+Time: 2023-06-14 23:45:24.524404 - 1185 granules remaining
+Time: 2023-06-14 23:46:24.584418 - 1131 granules remaining
+Time: 2023-06-14 23:47:24.644399 - 1090 granules remaining
+Time: 2023-06-14 23:48:24.704408 - 1028 granules remaining
+Time: 2023-06-14 23:49:24.764406 - 971 granules remaining
+Time: 2023-06-14 23:50:24.824407 - 925 granules remaining
+Time: 2023-06-14 23:51:24.884407 - 861 granules remaining
+Time: 2023-06-14 23:52:24.944408 - 811 granules remaining
+Time: 2023-06-14 23:53:25.004408 - 761 granules remaining
+Time: 2023-06-14 23:54:25.064416 - 702 granules remaining
+Time: 2023-06-14 23:55:25.124486 - 653 granules remaining
+Time: 2023-06-14 23:56:25.184401 - 597 granules remaining
+Time: 2023-06-14 23:57:25.244527 - 533 granules remaining
+Time: 2023-06-14 23:58:25.304422 - 488 granules remaining
+Time: 2023-06-14 23:59:25.364404 - 432 granules remaining
+Time: 2023-06-15 00:00:25.424403 - 374 granules remaining
+Time: 2023-06-15 00:01:25.484431 - 328 granules remaining
+Time: 2023-06-15 00:02:25.544412 - 270 granules remaining
+Time: 2023-06-15 00:03:25.605955 - 214 granules remaining
+Time: 2023-06-15 00:04:25.664412 - 166 granules remaining
+Time: 2023-06-15 00:05:25.724399 - 100 granules remaining
+Time: 2023-06-15 00:06:25.784416 - 52 granules remaining
+2023-06-15 00:07:25.789714
+2015344
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/10/%S2A%''. Waiting 15 seconds
+Successfully retrieved 408 objects with key filter %/2015/12/10/%S2A%
+2023-06-15 00:08:28.118758
+Time: 2023-06-15 00:08:28.186753 - 408 granules remaining
+Time: 2023-06-15 00:09:28.247074 - 368 granules remaining
+Time: 2023-06-15 00:10:28.304412 - 328 granules remaining
+Time: 2023-06-15 00:11:28.364417 - 248 granules remaining
+Time: 2023-06-15 00:12:28.424413 - 208 granules remaining
+Time: 2023-06-15 00:13:28.484771 - 144 granules remaining
+Time: 2023-06-15 00:14:28.544853 - 88 granules remaining
+Time: 2023-06-15 00:15:28.605188 - 48 granules remaining
+2023-06-15 00:16:28.665291
+2015343
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/09/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1899 objects with key filter %/2015/12/09/%S2A%
+2023-06-15 00:17:30.998149
+Time: 2023-06-15 00:17:31.067492 - 1899 granules remaining
+Time: 2023-06-15 00:18:31.124411 - 1859 granules remaining
+Time: 2023-06-15 00:19:31.184560 - 1819 granules remaining
+Time: 2023-06-15 00:20:31.244409 - 1744 granules remaining
+Time: 2023-06-15 00:21:31.304407 - 1699 granules remaining
+Time: 2023-06-15 00:22:31.364410 - 1655 granules remaining
+Time: 2023-06-15 00:23:31.424908 - 1582 granules remaining
+Time: 2023-06-15 00:24:31.484405 - 1539 granules remaining
+Time: 2023-06-15 00:25:31.544407 - 1484 granules remaining
+Time: 2023-06-15 00:26:31.604413 - 1420 granules remaining
+Time: 2023-06-15 00:27:31.664422 - 1379 granules remaining
+Time: 2023-06-15 00:28:31.724404 - 1323 granules remaining
+Time: 2023-06-15 00:29:31.784398 - 1264 granules remaining
+Time: 2023-06-15 00:30:31.844406 - 1220 granules remaining
+Time: 2023-06-15 00:31:31.904414 - 1162 granules remaining
+Time: 2023-06-15 00:32:31.964404 - 1106 granules remaining
+Time: 2023-06-15 00:33:32.024407 - 1057 granules remaining
+Time: 2023-06-15 00:34:32.084404 - 1006 granules remaining
+Time: 2023-06-15 00:35:32.144418 - 950 granules remaining
+Time: 2023-06-15 00:36:32.204403 - 900 granules remaining
+Time: 2023-06-15 00:37:32.264406 - 844 granules remaining
+Time: 2023-06-15 00:38:32.324400 - 786 granules remaining
+Time: 2023-06-15 00:39:32.384422 - 741 granules remaining
+Time: 2023-06-15 00:40:32.444409 - 684 granules remaining
+Time: 2023-06-15 00:41:32.505361 - 630 granules remaining
+Time: 2023-06-15 00:42:32.564755 - 581 granules remaining
+Time: 2023-06-15 00:43:32.624410 - 532 granules remaining
+Time: 2023-06-15 00:44:32.684405 - 468 granules remaining
+Time: 2023-06-15 00:45:32.744407 - 423 granules remaining
+Time: 2023-06-15 00:46:32.804408 - 376 granules remaining
+Time: 2023-06-15 00:47:32.864413 - 323 granules remaining
+Time: 2023-06-15 00:48:32.924408 - 263 granules remaining
+Time: 2023-06-15 00:49:32.984421 - 215 granules remaining
+Time: 2023-06-15 00:50:33.044403 - 150 granules remaining
+Time: 2023-06-15 00:51:33.104412 - 101 granules remaining
+Time: 2023-06-15 00:52:33.164403 - 54 granules remaining
+2023-06-15 00:53:33.224521
+2015342
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/08/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1672 objects with key filter %/2015/12/08/%S2A%
+2023-06-15 00:54:35.681633
+Time: 2023-06-15 00:54:35.749863 - 1672 granules remaining
+Time: 2023-06-15 00:55:35.810482 - 1632 granules remaining
+Time: 2023-06-15 00:56:35.870119 - 1591 granules remaining
+Time: 2023-06-15 00:57:35.928401 - 1512 granules remaining
+Time: 2023-06-15 00:58:35.988409 - 1472 granules remaining
+Time: 2023-06-15 00:59:36.048404 - 1414 granules remaining
+Time: 2023-06-15 01:00:36.108409 - 1352 granules remaining
+Time: 2023-06-15 01:01:36.168404 - 1307 granules remaining
+Time: 2023-06-15 01:02:36.228409 - 1237 granules remaining
+Time: 2023-06-15 01:03:36.288415 - 1192 granules remaining
+Time: 2023-06-15 01:04:36.348411 - 1146 granules remaining
+Time: 2023-06-15 01:05:36.408409 - 1082 granules remaining
+Time: 2023-06-15 01:06:36.468421 - 1032 granules remaining
+Time: 2023-06-15 01:07:36.528416 - 985 granules remaining
+Time: 2023-06-15 01:08:36.588406 - 918 granules remaining
+Time: 2023-06-15 01:09:36.648407 - 872 granules remaining
+Time: 2023-06-15 01:10:36.708407 - 827 granules remaining
+Time: 2023-06-15 01:11:36.768400 - 766 granules remaining
+Time: 2023-06-15 01:12:36.828431 - 713 granules remaining
+Time: 2023-06-15 01:13:36.888407 - 671 granules remaining
+Time: 2023-06-15 01:14:36.948408 - 617 granules remaining
+Time: 2023-06-15 01:15:37.008412 - 556 granules remaining
+Time: 2023-06-15 01:16:37.068404 - 512 granules remaining
+Time: 2023-06-15 01:17:37.128438 - 454 granules remaining
+Time: 2023-06-15 01:18:37.188423 - 394 granules remaining
+Time: 2023-06-15 01:19:37.248446 - 348 granules remaining
+Time: 2023-06-15 01:20:37.309875 - 294 granules remaining
+Time: 2023-06-15 01:21:37.368398 - 235 granules remaining
+Time: 2023-06-15 01:22:37.428405 - 187 granules remaining
+Time: 2023-06-15 01:23:37.488408 - 128 granules remaining
+Time: 2023-06-15 01:24:37.548644 - 73 granules remaining
+Time: 2023-06-15 01:25:37.608756 - 2 granules remaining
+2023-06-15 01:26:37.668859
+2015341
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/07/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1787 objects with key filter %/2015/12/07/%S2A%
+2023-06-15 01:27:39.930833
+Time: 2023-06-15 01:27:39.999247 - 1787 granules remaining
+Time: 2023-06-15 01:28:40.065111 - 1747 granules remaining
+Time: 2023-06-15 01:29:40.125498 - 1681 granules remaining
+Time: 2023-06-15 01:30:40.184416 - 1627 granules remaining
+Time: 2023-06-15 01:31:40.244421 - 1587 granules remaining
+Time: 2023-06-15 01:32:40.304405 - 1514 granules remaining
+Time: 2023-06-15 01:33:40.364414 - 1467 granules remaining
+Time: 2023-06-15 01:34:40.424426 - 1406 granules remaining
+Time: 2023-06-15 01:35:40.484408 - 1348 granules remaining
+Time: 2023-06-15 01:36:40.544409 - 1307 granules remaining
+Time: 2023-06-15 01:37:40.605271 - 1248 granules remaining
+Time: 2023-06-15 01:38:40.664400 - 1188 granules remaining
+Time: 2023-06-15 01:39:40.724412 - 1140 granules remaining
+Time: 2023-06-15 01:40:40.784406 - 1077 granules remaining
+Time: 2023-06-15 01:41:40.844411 - 1027 granules remaining
+Time: 2023-06-15 01:42:40.904489 - 974 granules remaining
+Time: 2023-06-15 01:43:40.964408 - 917 granules remaining
+Time: 2023-06-15 01:44:41.024406 - 868 granules remaining
+Time: 2023-06-15 01:45:41.084416 - 813 granules remaining
+Time: 2023-06-15 01:46:41.144405 - 758 granules remaining
+Time: 2023-06-15 01:47:41.204408 - 710 granules remaining
+Time: 2023-06-15 01:48:41.264403 - 652 granules remaining
+Time: 2023-06-15 01:49:41.324406 - 600 granules remaining
+Time: 2023-06-15 01:50:41.384407 - 549 granules remaining
+Time: 2023-06-15 01:51:41.444409 - 491 granules remaining
+Time: 2023-06-15 01:52:41.504407 - 439 granules remaining
+Time: 2023-06-15 01:53:41.564405 - 388 granules remaining
+Time: 2023-06-15 01:54:41.624405 - 332 granules remaining
+Time: 2023-06-15 01:55:41.684405 - 282 granules remaining
+Time: 2023-06-15 01:56:41.744413 - 231 granules remaining
+Time: 2023-06-15 01:57:41.804406 - 167 granules remaining
+Time: 2023-06-15 01:58:41.864405 - 121 granules remaining
+Time: 2023-06-15 01:59:41.924427 - 61 granules remaining
+2023-06-15 02:00:41.984554
+2015340
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/06/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1691 objects with key filter %/2015/12/06/%S2A%
+2023-06-15 02:01:44.315319
+Time: 2023-06-15 02:01:44.383881 - 1691 granules remaining
+Time: 2023-06-15 02:02:44.441128 - 1651 granules remaining
+Time: 2023-06-15 02:03:44.500424 - 1581 granules remaining
+Time: 2023-06-15 02:04:44.560403 - 1531 granules remaining
+Time: 2023-06-15 02:05:44.620418 - 1491 granules remaining
+Time: 2023-06-15 02:06:44.680411 - 1419 granules remaining
+Time: 2023-06-15 02:07:44.740406 - 1371 granules remaining
+Time: 2023-06-15 02:08:44.800414 - 1327 granules remaining
+Time: 2023-06-15 02:09:44.860438 - 1256 granules remaining
+Time: 2023-06-15 02:10:44.920407 - 1211 granules remaining
+Time: 2023-06-15 02:11:44.980399 - 1156 granules remaining
+Time: 2023-06-15 02:12:45.040399 - 1096 granules remaining
+Time: 2023-06-15 02:13:45.100405 - 1050 granules remaining
+Time: 2023-06-15 02:14:45.160406 - 990 granules remaining
+Time: 2023-06-15 02:15:45.222047 - 934 granules remaining
+Time: 2023-06-15 02:16:45.280413 - 888 granules remaining
+Time: 2023-06-15 02:17:45.340872 - 819 granules remaining
+Time: 2023-06-15 02:18:45.400407 - 771 granules remaining
+Time: 2023-06-15 02:19:45.460401 - 723 granules remaining
+Time: 2023-06-15 02:20:45.520405 - 657 granules remaining
+Time: 2023-06-15 02:21:45.580408 - 611 granules remaining
+Time: 2023-06-15 02:22:45.640401 - 565 granules remaining
+Time: 2023-06-15 02:23:45.700405 - 501 granules remaining
+Time: 2023-06-15 02:24:45.760413 - 451 granules remaining
+Time: 2023-06-15 02:25:45.820406 - 400 granules remaining
+Time: 2023-06-15 02:26:45.881545 - 335 granules remaining
+Time: 2023-06-15 02:27:45.940417 - 290 granules remaining
+Time: 2023-06-15 02:28:46.000407 - 239 granules remaining
+Time: 2023-06-15 02:29:46.060404 - 176 granules remaining
+Time: 2023-06-15 02:30:46.120402 - 131 granules remaining
+Time: 2023-06-15 02:31:46.180412 - 66 granules remaining
+2023-06-15 02:32:46.198063
+2015339
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/05/%S2A%''. Waiting 15 seconds
+Successfully retrieved 844 objects with key filter %/2015/12/05/%S2A%
+2023-06-15 02:33:48.579935
+Time: 2023-06-15 02:33:48.654254 - 844 granules remaining
+Time: 2023-06-15 02:34:48.720410 - 804 granules remaining
+Time: 2023-06-15 02:35:48.780405 - 764 granules remaining
+Time: 2023-06-15 02:36:48.840408 - 685 granules remaining
+Time: 2023-06-15 02:37:48.900409 - 644 granules remaining
+Time: 2023-06-15 02:38:48.960406 - 584 granules remaining
+Time: 2023-06-15 02:39:49.020410 - 524 granules remaining
+Time: 2023-06-15 02:40:49.080428 - 473 granules remaining
+Time: 2023-06-15 02:41:49.140409 - 409 granules remaining
+Time: 2023-06-15 02:42:49.200409 - 364 granules remaining
+Time: 2023-06-15 02:43:49.260417 - 304 granules remaining
+Time: 2023-06-15 02:44:49.320407 - 245 granules remaining
+Time: 2023-06-15 02:45:49.380412 - 199 granules remaining
+Time: 2023-06-15 02:46:49.440411 - 140 granules remaining
+Time: 2023-06-15 02:47:49.500407 - 84 granules remaining
+Time: 2023-06-15 02:48:49.560469 - 36 granules remaining
+2023-06-15 02:49:49.620563
+2015338
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/04/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1831 objects with key filter %/2015/12/04/%S2A%
+2023-06-15 02:50:51.977690
+Time: 2023-06-15 02:50:52.049396 - 1831 granules remaining
+Time: 2023-06-15 02:51:52.108406 - 1791 granules remaining
+Time: 2023-06-15 02:52:52.168405 - 1751 granules remaining
+Time: 2023-06-15 02:53:52.228458 - 1672 granules remaining
+Time: 2023-06-15 02:54:52.288409 - 1631 granules remaining
+Time: 2023-06-15 02:55:52.348404 - 1575 granules remaining
+Time: 2023-06-15 02:56:52.408414 - 1511 granules remaining
+Time: 2023-06-15 02:57:52.468403 - 1465 granules remaining
+Time: 2023-06-15 02:58:52.528402 - 1400 granules remaining
+Time: 2023-06-15 02:59:52.588405 - 1351 granules remaining
+Time: 2023-06-15 03:00:52.648422 - 1299 granules remaining
+Time: 2023-06-15 03:01:52.708405 - 1238 granules remaining
+Time: 2023-06-15 03:02:52.768399 - 1190 granules remaining
+Time: 2023-06-15 03:03:52.829621 - 1127 granules remaining
+Time: 2023-06-15 03:04:52.888415 - 1074 granules remaining
+Time: 2023-06-15 03:05:52.948413 - 1025 granules remaining
+Time: 2023-06-15 03:06:53.008415 - 962 granules remaining
+Time: 2023-06-15 03:07:53.069592 - 914 granules remaining
+Time: 2023-06-15 03:08:53.129240 - 864 granules remaining
+Time: 2023-06-15 03:09:53.188406 - 804 granules remaining
+Time: 2023-06-15 03:10:53.248416 - 754 granules remaining
+Time: 2023-06-15 03:11:53.308404 - 703 granules remaining
+Time: 2023-06-15 03:12:53.368409 - 644 granules remaining
+Time: 2023-06-15 03:13:53.428413 - 593 granules remaining
+Time: 2023-06-15 03:14:53.488412 - 537 granules remaining
+Time: 2023-06-15 03:15:53.548405 - 479 granules remaining
+Time: 2023-06-15 03:16:53.608398 - 429 granules remaining
+Time: 2023-06-15 03:17:53.669998 - 368 granules remaining
+Time: 2023-06-15 03:18:53.728407 - 316 granules remaining
+Time: 2023-06-15 03:19:53.788451 - 263 granules remaining
+Time: 2023-06-15 03:20:53.848413 - 202 granules remaining
+Time: 2023-06-15 03:21:53.908412 - 152 granules remaining
+Time: 2023-06-15 03:22:53.970229 - 94 granules remaining
+Time: 2023-06-15 03:23:54.028406 - 37 granules remaining
+2023-06-15 03:24:54.044306
+2015337
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/03/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1568 objects with key filter %/2015/12/03/%S2A%
+2023-06-15 03:25:56.380870
+Time: 2023-06-15 03:25:56.450696 - 1568 granules remaining
+Time: 2023-06-15 03:26:56.508413 - 1528 granules remaining
+Time: 2023-06-15 03:27:56.568409 - 1481 granules remaining
+Time: 2023-06-15 03:28:56.628404 - 1409 granules remaining
+Time: 2023-06-15 03:29:56.688410 - 1368 granules remaining
+Time: 2023-06-15 03:30:56.748405 - 1301 granules remaining
+Time: 2023-06-15 03:31:56.810890 - 1248 granules remaining
+Time: 2023-06-15 03:32:56.868407 - 1208 granules remaining
+Time: 2023-06-15 03:33:56.928404 - 1142 granules remaining
+Time: 2023-06-15 03:34:56.988409 - 1088 granules remaining
+Time: 2023-06-15 03:35:57.048403 - 1037 granules remaining
+Time: 2023-06-15 03:36:57.108400 - 975 granules remaining
+Time: 2023-06-15 03:37:57.168474 - 928 granules remaining
+Time: 2023-06-15 03:38:57.228408 - 870 granules remaining
+Time: 2023-06-15 03:39:57.288415 - 812 granules remaining
+Time: 2023-06-15 03:40:57.348410 - 768 granules remaining
+Time: 2023-06-15 03:41:57.408412 - 708 granules remaining
+Time: 2023-06-15 03:42:57.468407 - 655 granules remaining
+Time: 2023-06-15 03:43:57.528404 - 610 granules remaining
+Time: 2023-06-15 03:44:57.588406 - 552 granules remaining
+Time: 2023-06-15 03:45:57.648408 - 495 granules remaining
+Time: 2023-06-15 03:46:57.709066 - 449 granules remaining
+Time: 2023-06-15 03:47:57.768409 - 392 granules remaining
+Time: 2023-06-15 03:48:57.828410 - 338 granules remaining
+Time: 2023-06-15 03:49:57.888417 - 293 granules remaining
+Time: 2023-06-15 03:50:57.948433 - 236 granules remaining
+Time: 2023-06-15 03:51:58.008406 - 176 granules remaining
+Time: 2023-06-15 03:52:58.068412 - 130 granules remaining
+Time: 2023-06-15 03:53:58.128404 - 73 granules remaining
+Time: 2023-06-15 03:54:58.188404 - 13 granules remaining
+2023-06-15 03:55:58.248521
+2015336
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/02/%S2A%''. Waiting 15 seconds
+Successfully retrieved 283 objects with key filter %/2015/12/02/%S2A%
+2023-06-15 03:57:00.697556
+Time: 2023-06-15 03:57:00.768683 - 283 granules remaining
+Time: 2023-06-15 03:58:00.828412 - 243 granules remaining
+Time: 2023-06-15 03:59:00.888434 - 203 granules remaining
+Time: 2023-06-15 04:00:00.948408 - 126 granules remaining
+Time: 2023-06-15 04:01:01.008402 - 83 granules remaining
+Time: 2023-06-15 04:02:01.068547 - 41 granules remaining
+2023-06-15 04:03:01.080992
+2015335
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/12/01/%S2A%''. Waiting 15 seconds
+Successfully retrieved 672 objects with key filter %/2015/12/01/%S2A%
+2023-06-15 04:04:03.504042
+Time: 2023-06-15 04:04:03.574462 - 672 granules remaining
+Time: 2023-06-15 04:05:03.640405 - 632 granules remaining
+Time: 2023-06-15 04:06:03.700407 - 592 granules remaining
+Time: 2023-06-15 04:07:03.760407 - 519 granules remaining
+Time: 2023-06-15 04:08:03.820437 - 472 granules remaining
+Time: 2023-06-15 04:09:03.880406 - 418 granules remaining
+Time: 2023-06-15 04:10:03.940403 - 352 granules remaining
+Time: 2023-06-15 04:11:04.000406 - 311 granules remaining
+Time: 2023-06-15 04:12:04.060411 - 243 granules remaining
+Time: 2023-06-15 04:13:04.120405 - 192 granules remaining
+Time: 2023-06-15 04:14:04.180403 - 142 granules remaining
+Time: 2023-06-15 04:15:04.240404 - 77 granules remaining
+Time: 2023-06-15 04:16:04.300415 - 25 granules remaining
+2023-06-15 04:17:04.360512
+2015334
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/11/30/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1717 objects with key filter %/2015/11/30/%S2A%
+2023-06-15 04:18:06.717073
+Time: 2023-06-15 04:18:06.786196 - 1717 granules remaining
+Time: 2023-06-15 04:19:06.844408 - 1677 granules remaining
+Time: 2023-06-15 04:20:06.904495 - 1630 granules remaining
+Time: 2023-06-15 04:21:06.964420 - 1557 granules remaining
+Time: 2023-06-15 04:22:07.024403 - 1504 granules remaining
+Time: 2023-06-15 04:23:07.084413 - 1437 granules remaining
+Time: 2023-06-15 04:24:07.144408 - 1397 granules remaining
+Time: 2023-06-15 04:25:07.204409 - 1342 granules remaining
+Time: 2023-06-15 04:26:07.264418 - 1277 granules remaining
+Time: 2023-06-15 04:27:07.324431 - 1237 granules remaining
+Time: 2023-06-15 04:28:07.384416 - 1177 granules remaining
+Time: 2023-06-15 04:29:07.444677 - 1118 granules remaining
+Time: 2023-06-15 04:30:07.504412 - 1077 granules remaining
+Time: 2023-06-15 04:31:07.564408 - 1020 granules remaining
+Time: 2023-06-15 04:32:07.624409 - 957 granules remaining
+Time: 2023-06-15 04:33:07.684423 - 917 granules remaining
+Time: 2023-06-15 04:34:07.744416 - 867 granules remaining
+Time: 2023-06-15 04:35:07.804404 - 799 granules remaining
+Time: 2023-06-15 04:36:07.864406 - 757 granules remaining
+Time: 2023-06-15 04:37:07.924413 - 711 granules remaining
+Time: 2023-06-15 04:38:07.984410 - 645 granules remaining
+Time: 2023-06-15 04:39:08.044405 - 597 granules remaining
+Time: 2023-06-15 04:40:08.104425 - 555 granules remaining
+Time: 2023-06-15 04:41:08.164423 - 495 granules remaining
+Time: 2023-06-15 04:42:08.224411 - 437 granules remaining
+Time: 2023-06-15 04:43:08.284408 - 397 granules remaining
+Time: 2023-06-15 04:44:08.344412 - 332 granules remaining
+Time: 2023-06-15 04:45:08.404409 - 283 granules remaining
+Time: 2023-06-15 04:46:08.464412 - 237 granules remaining
+Time: 2023-06-15 04:47:08.524418 - 189 granules remaining
+Time: 2023-06-15 04:48:08.584406 - 129 granules remaining
+Time: 2023-06-15 04:49:08.644414 - 77 granules remaining
+Time: 2023-06-15 04:50:08.704444 - 26 granules remaining
+2023-06-15 04:51:08.764395
+2015333
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/11/29/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1904 objects with key filter %/2015/11/29/%S2A%
+2023-06-15 04:52:11.059430
+Time: 2023-06-15 04:52:11.131455 - 1904 granules remaining
+Time: 2023-06-15 04:53:11.189645 - 1864 granules remaining
+Time: 2023-06-15 04:54:11.250002 - 1824 granules remaining
+Time: 2023-06-15 04:55:11.308411 - 1744 granules remaining
+Time: 2023-06-15 04:56:11.368407 - 1704 granules remaining
+Time: 2023-06-15 04:57:11.428410 - 1640 granules remaining
+Time: 2023-06-15 04:58:11.488439 - 1584 granules remaining
+Time: 2023-06-15 04:59:11.548409 - 1544 granules remaining
+Time: 2023-06-15 05:00:11.608405 - 1471 granules remaining
+Time: 2023-06-15 05:01:11.668409 - 1424 granules remaining
+Time: 2023-06-15 05:02:11.728404 - 1379 granules remaining
+Time: 2023-06-15 05:03:11.788406 - 1309 granules remaining
+Time: 2023-06-15 05:04:11.848426 - 1264 granules remaining
+Time: 2023-06-15 05:05:11.908402 - 1216 granules remaining
+Time: 2023-06-15 05:06:11.968409 - 1149 granules remaining
+Time: 2023-06-15 05:07:12.028413 - 1104 granules remaining
+Time: 2023-06-15 05:08:12.088829 - 1040 granules remaining
+Time: 2023-06-15 05:09:12.148408 - 987 granules remaining
+Time: 2023-06-15 05:10:12.208403 - 943 granules remaining
+Time: 2023-06-15 05:11:12.268405 - 877 granules remaining
+Time: 2023-06-15 05:12:12.328408 - 825 granules remaining
+Time: 2023-06-15 05:13:12.388400 - 776 granules remaining
+Time: 2023-06-15 05:14:12.448409 - 711 granules remaining
+Time: 2023-06-15 05:15:12.508422 - 665 granules remaining
+Time: 2023-06-15 05:16:12.568401 - 616 granules remaining
+Time: 2023-06-15 05:17:12.628407 - 549 granules remaining
+Time: 2023-06-15 05:18:12.688405 - 505 granules remaining
+Time: 2023-06-15 05:19:12.748405 - 446 granules remaining
+Time: 2023-06-15 05:20:12.808411 - 389 granules remaining
+Time: 2023-06-15 05:21:12.868405 - 344 granules remaining
+Time: 2023-06-15 05:22:12.928396 - 284 granules remaining
+Time: 2023-06-15 05:23:12.988446 - 230 granules remaining
+Time: 2023-06-15 05:24:13.048418 - 184 granules remaining
+Time: 2023-06-15 05:25:13.108408 - 138 granules remaining
+Time: 2023-06-15 05:26:13.168402 - 78 granules remaining
+Time: 2023-06-15 05:27:13.228426 - 24 granules remaining
+2023-06-15 05:28:13.288401
+2015332
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00
+Query state is currently QUEUED for Query: 'SELECT key FROM transfer_staging WHERE dt='2023-06-13-01-00' AND key like '%/2015/11/28/%S2A%''. Waiting 15 seconds
+Successfully retrieved 1686 objects with key filter %/2015/11/28/%S2A%
+2023-06-15 05:29:15.911004
+Time: 2023-06-15 05:29:15.982930 - 1686 granules remaining
+Time: 2023-06-15 05:30:16.040987 - 1646 granules remaining
+Time: 2023-06-15 05:31:16.100413 - 1600 granules remaining
+Time: 2023-06-15 05:32:16.160446 - 1527 granules remaining
+Time: 2023-06-15 05:33:16.220423 - 1486 granules remaining
+Time: 2023-06-15 05:34:16.280417 - 1446 granules remaining
+Time: 2023-06-15 05:35:16.340430 - 1367 granules remaining
+Time: 2023-06-15 05:36:16.401552 - 1326 granules remaining
+Time: 2023-06-15 05:37:16.461483 - 1268 granules remaining
+Time: 2023-06-15 05:38:16.520535 - 1208 granules remaining
+Time: 2023-06-15 05:39:16.580412 - 1166 granules remaining
+Time: 2023-06-15 05:40:16.640438 - 1109 granules remaining
+Time: 2023-06-15 05:41:16.700407 - 1050 granules remaining
+Time: 2023-06-15 05:42:16.760415 - 1006 granules remaining
+Time: 2023-06-15 05:43:16.820405 - 953 granules remaining
+Time: 2023-06-15 05:44:16.880405 - 892 granules remaining
+Time: 2023-06-15 05:45:16.940404 - 844 granules remaining
+Time: 2023-06-15 05:46:17.000412 - 796 granules remaining
+Time: 2023-06-15 05:47:17.062237 - 733 granules remaining
+Time: 2023-06-15 05:48:17.120404 - 685 granules remaining
+Time: 2023-06-15 05:49:17.180411 - 633 granules remaining
+Time: 2023-06-15 05:50:17.240413 - 570 granules remaining
+Time: 2023-06-15 05:51:17.300451 - 520 granules remaining
+Time: 2023-06-15 05:52:17.360405 - 462 granules remaining
+Time: 2023-06-15 05:53:17.420413 - 408 granules remaining
+Time: 2023-06-15 05:54:17.480412 - 357 granules remaining
+Time: 2023-06-15 05:55:17.541660 - 308 granules remaining
+Time: 2023-06-15 05:56:17.600422 - 249 granules remaining
+Time: 2023-06-15 05:57:17.660407 - 192 granules remaining
+Time: 2023-06-15 05:58:17.720406 - 132 granules remaining
+Time: 2023-06-15 05:59:17.780410 - 78 granules remaining
+Time: 2023-06-15 06:00:17.840406 - 22 granules remaining
+2023-06-15 06:01:17.900533
+2015331
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'MSCK REPAIR TABLE transfer_staging'. Waiting 15 seconds
+Query state is currently QUEUED for Query: 'SELECT * FROM "transfer_staging$partitions" ORDER BY dt DESC'. Waiting 15 seconds
+Successfully found partition for 2023-06-13-01-00

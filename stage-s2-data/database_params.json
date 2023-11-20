@@ -1,0 +1,12 @@
+{
+        "catalog": "AwsDataCatalog",
+        "database": "default",
+        "table": "transfer_staging",
+        "output_location": "s3://impact-s2-inventories/esa-data-transfer-staging/query_results/",
+        "source_bucket": "esa-data-transfer-staging",
+        "target_bucket": "hls-prod-sentinel-input-files-historic",
+        "archive_bucket": "s2-archive",
+        "s2b_start_date": "07-06-2017",
+        "s2a_start_date": "11-28-2015"
+}
+
